@@ -106,20 +106,20 @@ Naive for i in x: for j, k in enumerate(y): if i == k: result." />
           <p>I spotted a wild Big O application!; exciting since I&rsquo;ve only experienced it as an exercise. Exciting because it clicked, I didn&rsquo;t simply see that <strong>maybe</strong> I could write something better, I could <strong>prove</strong> it was better, given certain conditions <strong>and</strong> I knew <strong>why</strong>.
 I&rsquo;ll post the rough outline here so I can ask more knowledgeable people how close(or far off) I was and why.</p>
 <h4 id="naive">Naive</h4>
-<pre><code>for i in x:
-	for j, k in enumerate(y):
-		if i == k:
-			result.append(i)
-</code></pre><h4 id="__more__-performant-at-scalebig-o"><strong>More</strong> Performant at Scale(Big O)</h4>
-<pre><code>for i in x:
-	index = 0
-	for j, k in enumerate(y):
-		if i == k:
-			index = j
-			result.append(i)
-			break # this was in original code, but for the sake of a 'pure' naive example i excluded it 
-	del y[index] # important
-</code></pre><p>The naive is n<!-- raw HTML omitted -->2<!-- raw HTML omitted -->(nested for loop, easy), and the improved implementation I <strong>think</strong> is <code>n log n</code>, since y becomes smaller.
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> x:
+	<span style="color:#66d9ef">for</span> j, k <span style="color:#f92672">in</span> enumerate(y):
+		<span style="color:#66d9ef">if</span> i <span style="color:#f92672">==</span> k:
+			result<span style="color:#f92672">.</span>append(i)
+</code></pre></div><h4 id="__more__-performant-at-scalebig-o"><strong>More</strong> Performant at Scale(Big O)</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> x:
+	index <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+	<span style="color:#66d9ef">for</span> j, k <span style="color:#f92672">in</span> enumerate(y):
+		<span style="color:#66d9ef">if</span> i <span style="color:#f92672">==</span> k:
+			index <span style="color:#f92672">=</span> j
+			result<span style="color:#f92672">.</span>append(i)
+			<span style="color:#66d9ef">break</span> 
+	<span style="color:#66d9ef">del</span> y[index] <span style="color:#75715e"># important</span>
+</code></pre></div><p>The naive is n^2(nested for loop, easy), and the improved implementation I <strong>think</strong> is <code>n log n</code>, since y becomes smaller.
 An exciting moment for me even if I&rsquo;m not right since I at least <strong>thought</strong> in these terms, unprompted and in respect to myself coding live. Right or wrong it makes me excited to prompt learning more, instead of as a dry example in a book with toy examples.
 Respect the little gains, they prompt bigger ones.</p>
 <h3 id="the-doing">The Doing</h3>
