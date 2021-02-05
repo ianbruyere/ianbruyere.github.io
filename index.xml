@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ian&#39;s Blog</title>
+    <link>https://ianbruyere.github.io/</link>
+    <description>Recent content on Ian&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 04 Feb 2021 20:41:15 -0500</lastBuildDate><atom:link href="https://ianbruyere.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Weekly Commit #7</title>
+      <link>https://ianbruyere.github.io/posts/the-weekly-commit-7/</link>
+      <pubDate>Thu, 04 Feb 2021 20:41:15 -0500</pubDate>
+      
+      <guid>https://ianbruyere.github.io/posts/the-weekly-commit-7/</guid>
+      <description>I spotted a wild Big O application!;exciting since I&amp;rsquo;ve only experienced it as an exercise. Exciting because it clicked, I didn&amp;rsquo;t simply see that maybe I could write something better, I could prove it was better, given certain conditions and I knew why. I&amp;rsquo;ll post the rough outline here so I can ask more knowledgeable people how close(or far off) I was and why.
+Naive `for i in x: for j, k in enumerate(y): if i == k: result.</description>
+    </item>
+    
+    <item>
+      <title>The Weekly Commit #6</title>
+      <link>https://ianbruyere.github.io/posts/the-weekly-commit-6/</link>
+      <pubDate>Thu, 28 Jan 2021 23:45:56 -0500</pubDate>
+      
+      <guid>https://ianbruyere.github.io/posts/the-weekly-commit-6/</guid>
+      <description>As a continuation of last week: deleting the old gcc files had no detrimental effect on my computer. However, hugo this time(since now I don&amp;rsquo;t trust brew) was a bit of pain. Now I think it&amp;rsquo;s all sorted and honestly, learned even more about the Linux shell environment. I&amp;rsquo;m a young whippersnapper when it comes to Linux and in a lot of ways computers in general, so I&amp;rsquo;m not tearing through the shell ripping apart build processes or anything like that&amp;hellip;yet; Linux can be as wild as you want but I&amp;rsquo;m glad I can take it at my own pace.</description>
+    </item>
+    
+    <item>
+      <title>The Weekly Commit #5</title>
+      <link>https://ianbruyere.github.io/posts/the-weekly-commit-5/</link>
+      <pubDate>Thu, 21 Jan 2021 23:20:06 -0500</pubDate>
+      
+      <guid>https://ianbruyere.github.io/posts/the-weekly-commit-5/</guid>
+      <description>The Doing Debugging my system. Something strange was happening when my python venv were suddenly not finding any installed packages-e.g. gym not found- and when I tried to install them with pip&amp;hellip;it failed with the longest and most unhelpful error I&amp;rsquo;ve ever seen. So I switch to my main project thinking it&amp;rsquo;s maybe just a problem with the one venv(only switching AFTER I tried to remake the venv, reinstall the package, run the thing etc.</description>
+    </item>
+    
+    <item>
+      <title>The Weekly Commit #4</title>
+      <link>https://ianbruyere.github.io/posts/the-weekly-commit-4/</link>
+      <pubDate>Thu, 14 Jan 2021 23:21:06 -0500</pubDate>
+      
+      <guid>https://ianbruyere.github.io/posts/the-weekly-commit-4/</guid>
+      <description>My coding endeavors are in a state of drift: whatever grabs my attention for a brief burst before I turn to the next shiny thing. I take it as my natural bounty of finally being employed: enjoying coding instead of a method of &amp;ldquo;getting employed&amp;rdquo;; every time I sat down to code in my unemployed state I&amp;rsquo;d be pursuing:
+A) enticing employers with my knowledge of buzz words
+B) shoring up theoretical weaknesses given my lack of &amp;ldquo;traditional&amp;rdquo; education i.</description>
+    </item>
+    
+    <item>
+      <title>The Weekly Commit #3</title>
+      <link>https://ianbruyere.github.io/posts/the-weekly-commit-3/</link>
+      <pubDate>Thu, 07 Jan 2021 23:18:14 -0500</pubDate>
+      
+      <guid>https://ianbruyere.github.io/posts/the-weekly-commit-3/</guid>
+      <description>The Doing I wrote some bash scripts: one that uses sed/awk to find null data giving the option to scrub it, and another that goes through a series of logs and outputs the desired information to console.
+Learning Learning what I&amp;rsquo;ve been doing: awk/sed/grep and bash scripting, the fine art of using and analyzing the tools.
+Near Future Goals Haven&amp;rsquo;t exactly been knocking any of these off my to-do lists. Happy with the fact that I&amp;rsquo;m making self-started endeavors to code a bit every week(outside of work) but haven&amp;rsquo;t been able to focus on any of my major goals.</description>
+    </item>
+    
+    <item>
+      <title>The Weekly Commit #2</title>
+      <link>https://ianbruyere.github.io/posts/the-weekly-commit-2/</link>
+      <pubDate>Thu, 31 Dec 2020 23:22:27 -0500</pubDate>
+      
+      <guid>https://ianbruyere.github.io/posts/the-weekly-commit-2/</guid>
+      <description>The Doing Not too much doing. The crush of Christmas and New Years being what it is. Mainly finding the threads of where I left off in my own code. Mainly in the testing section, simply need to remember where I was questing.
+Learning Did some brief overview of security stuff. Mainly laying down some lead lines for future(far off) endeavors. Nothing much.
+Near-Future Goals About the same. Start on my project in earnest as time and sanity allows, also keep up with my own small projects as buffers against code-block and staleness.</description>
+    </item>
+    
+    <item>
+      <title>The Weekly Commit #1</title>
+      <link>https://ianbruyere.github.io/posts/the-weekly-commit-1/</link>
+      <pubDate>Thu, 24 Dec 2020 21:31:17 -0500</pubDate>
+      
+      <guid>https://ianbruyere.github.io/posts/the-weekly-commit-1/</guid>
+      <description>The Doing Made a CLI in python to process some Personal Training Data. It&amp;rsquo;s standard as dataprocessing goes: input a csv, clean it, outputs interesting information in csv. Other than being practically useful for myself, it allowed me to scrape the rust off my Python. The Python Standard Library is vast, and my goal of having it close at hand is only possible through constant practice. Suddenly having full-time work day disrupted my rhythm; doing some personal coding is a sign I haven&amp;rsquo;t lost the beat.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ianbruyere.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ianbruyere.github.io/about/</guid>
+      <description>Welcome!
+This blog is about my experience learning and building in the wonderful world of code.</description>
+    </item>
+    
+  </channel>
+</rss>
