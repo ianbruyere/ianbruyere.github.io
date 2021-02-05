@@ -21,7 +21,7 @@
       "articleSection" : "posts",
       "name" : "The Weekly Commit #7",
       "headline" : "The Weekly Commit #7",
-      "description" : "I spotted a wild Big O application!;exciting since I\u0026rsquo;ve only experienced it as an exercise. Exciting because it clicked, I didn\u0026rsquo;t simply see that maybe I could write something better, I could prove it was better, given certain conditions and I knew why. I\u0026rsquo;ll post the rough outline here so I can ask more knowledgeable people how close(or far off) I was and why.\nNaive `for i in x: for j, k in enumerate(y): if i == k: result.",
+      "description" : "I spotted a wild Big O application!; exciting since I\u0026rsquo;ve only experienced it as an exercise. Exciting because it clicked, I didn\u0026rsquo;t simply see that maybe I could write something better, I could prove it was better, given certain conditions and I knew why. I\u0026rsquo;ll post the rough outline here so I can ask more knowledgeable people how close(or far off) I was and why.\nNaive for i in x: for j, k in enumerate(y): if i == k: result.",
       "inLanguage" : "en-US",
       "author" : "",
       "creator" : "",
@@ -38,10 +38,10 @@
 <title>The Weekly Commit #7</title>
   <meta property="og:title" content="The Weekly Commit #7" />
   <meta property="og:type" content="article" />
-  <meta property="og:description" content="I spotted a wild Big O application!;exciting since I&amp;rsquo;ve only experienced it as an exercise. Exciting because it clicked, I didn&amp;rsquo;t simply see that maybe I could write something better, I could prove it was better, given certain conditions and I knew why. I&amp;rsquo;ll post the rough outline here so I can ask more knowledgeable people how close(or far off) I was and why.
-Naive `for i in x: for j, k in enumerate(y): if i == k: result." />
-  <meta name="description" content="I spotted a wild Big O application!;exciting since I&amp;rsquo;ve only experienced it as an exercise. Exciting because it clicked, I didn&amp;rsquo;t simply see that maybe I could write something better, I could prove it was better, given certain conditions and I knew why. I&amp;rsquo;ll post the rough outline here so I can ask more knowledgeable people how close(or far off) I was and why.
-Naive `for i in x: for j, k in enumerate(y): if i == k: result." />
+  <meta property="og:description" content="I spotted a wild Big O application!; exciting since I&amp;rsquo;ve only experienced it as an exercise. Exciting because it clicked, I didn&amp;rsquo;t simply see that maybe I could write something better, I could prove it was better, given certain conditions and I knew why. I&amp;rsquo;ll post the rough outline here so I can ask more knowledgeable people how close(or far off) I was and why.
+Naive for i in x: for j, k in enumerate(y): if i == k: result." />
+  <meta name="description" content="I spotted a wild Big O application!; exciting since I&amp;rsquo;ve only experienced it as an exercise. Exciting because it clicked, I didn&amp;rsquo;t simply see that maybe I could write something better, I could prove it was better, given certain conditions and I knew why. I&amp;rsquo;ll post the rough outline here so I can ask more knowledgeable people how close(or far off) I was and why.
+Naive for i in x: for j, k in enumerate(y): if i == k: result." />
   <meta property="og:locale" content="en-us" />
 
   
@@ -103,16 +103,23 @@ Naive `for i in x: for j, k in enumerate(y): if i == k: result." />
 
         <div class="post-content markdown-body">
           
-          <p>I spotted a wild Big O application!;exciting since I&rsquo;ve only experienced it as an exercise. Exciting because it clicked, I didn&rsquo;t simply see that <strong>maybe</strong> I could write something better, I could <strong>prove</strong> it was better, given certain conditions <strong>and</strong> I knew <strong>why</strong>.
+          <p>I spotted a wild Big O application!; exciting since I&rsquo;ve only experienced it as an exercise. Exciting because it clicked, I didn&rsquo;t simply see that <strong>maybe</strong> I could write something better, I could <strong>prove</strong> it was better, given certain conditions <strong>and</strong> I knew <strong>why</strong>.
 I&rsquo;ll post the rough outline here so I can ask more knowledgeable people how close(or far off) I was and why.</p>
 <h4 id="naive">Naive</h4>
-<p>`for i in x:
-for j, k in enumerate(y):
-if i == k:
-result.append(i)</p>
-<h4 id="__more__-performant-at-scalebig-o"><strong>More</strong> Performant at Scale(Big O)</h4>
-<p><code>for i in x: index = 0 for j, k in enumerate(y): if i == k: index = j result.append(i) break # this was in original code, but for the sake of a 'pure' naive example i excluded it  del y[index] # important</code>
-The naive is n^2(nested for loop, easy), and the improved implementation I <strong>think</strong> is <code>n log n</code>, since y becomes smaller.
+<pre><code>for i in x:
+	for j, k in enumerate(y):
+		if i == k:
+			result.append(i)
+</code></pre><h4 id="__more__-performant-at-scalebig-o"><strong>More</strong> Performant at Scale(Big O)</h4>
+<pre><code>for i in x:
+	index = 0
+	for j, k in enumerate(y):
+		if i == k:
+			index = j
+			result.append(i)
+			break # this was in original code, but for the sake of a 'pure' naive example i excluded it 
+	del y[index] # important
+</code></pre><p>The naive is n<!-- raw HTML omitted -->2<!-- raw HTML omitted -->(nested for loop, easy), and the improved implementation I <strong>think</strong> is <code>n log n</code>, since y becomes smaller.
 An exciting moment for me even if I&rsquo;m not right since I at least <strong>thought</strong> in these terms, unprompted and in respect to myself coding live. Right or wrong it makes me excited to prompt learning more, instead of as a dry example in a book with toy examples.
 Respect the little gains, they prompt bigger ones.</p>
 <h3 id="the-doing">The Doing</h3>
@@ -128,7 +135,7 @@ Respect the little gains, they prompt bigger ones.</p>
 <li>Actually wrote a test case for my personal project. I feel the pieces falling into place for me to pick up steam on that again. More on that.</li>
 </ul>
 <h3 id="the-learning">The Learning</h3>
-<p>After only a brief absence this is <strong>back</strong>, for a limited tenor. Reasons why:</p>
+<p>After only a brief absence this is <strong>back</strong>, for a limited tenure. Reasons why:</p>
 <ul>
 <li>Wes Bos finally updated his Advanced React course, which I use to keep myself abreast of this sort of stuff. I&rsquo;ve been part of it for awhile, and right as I was about to use react and brush up on it so I could do the frontend for my personal project back in November, Wes said there was a major update coming for his course, so I decided to wait, and here we are 3 months later(maybe longer, definitely not shorter since I know it was before December).</li>
 <li>For my job, I&rsquo;ve been learning and need to continue to learn basic ETL concepts. Had a KT at work today, and that&rsquo;s prompting me to look into the ETL concepts in-light of the Star Schema.</li>

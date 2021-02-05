@@ -13,8 +13,8 @@
       <pubDate>Thu, 04 Feb 2021 20:41:15 -0500</pubDate>
       
       <guid>https://ianbruyere.github.io/posts/the-weekly-commit-7/</guid>
-      <description>I spotted a wild Big O application!;exciting since I&amp;rsquo;ve only experienced it as an exercise. Exciting because it clicked, I didn&amp;rsquo;t simply see that maybe I could write something better, I could prove it was better, given certain conditions and I knew why. I&amp;rsquo;ll post the rough outline here so I can ask more knowledgeable people how close(or far off) I was and why.
-Naive `for i in x: for j, k in enumerate(y): if i == k: result.</description>
+      <description>I spotted a wild Big O application!; exciting since I&amp;rsquo;ve only experienced it as an exercise. Exciting because it clicked, I didn&amp;rsquo;t simply see that maybe I could write something better, I could prove it was better, given certain conditions and I knew why. I&amp;rsquo;ll post the rough outline here so I can ask more knowledgeable people how close(or far off) I was and why.
+Naive for i in x: for j, k in enumerate(y): if i == k: result.</description>
     </item>
     
     <item>
