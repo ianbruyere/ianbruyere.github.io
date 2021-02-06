@@ -21,7 +21,7 @@
       "articleSection" : "posts",
       "name" : "The Weekly Commit #7",
       "headline" : "The Weekly Commit #7",
-      "description" : "I spotted a wild Big O application!; exciting since I\u0026rsquo;ve only experienced it as an exercise. Exciting because it clicked, I didn\u0026rsquo;t simply see that maybe I could write something better, I could prove it was better, given certain conditions and I knew why. I\u0026rsquo;ll post the rough outline here so I can ask more knowledgeable people how close(or far off) I was and why.\nNaive for i in x: for j, k in enumerate(y): if i == k: result.",
+      "description" : "I spotted a wild Big O application!; exciting since I\u0026rsquo;ve only experienced it in a controlled-environment. I\u0026rsquo;ll post the rough outline here so I can ask more knowledgeable people how close(or far off) I was and why.\nNaive for i in x: for j, k in enumerate(y): if i == k: result.append(i) More Performant at Scale(Big O) for i in x: index = 0 for j, k in enumerate(y): if i == k: index = j result.",
       "inLanguage" : "en-US",
       "author" : "",
       "creator" : "",
@@ -38,10 +38,10 @@
 <title>The Weekly Commit #7</title>
   <meta property="og:title" content="The Weekly Commit #7" />
   <meta property="og:type" content="article" />
-  <meta property="og:description" content="I spotted a wild Big O application!; exciting since I&amp;rsquo;ve only experienced it as an exercise. Exciting because it clicked, I didn&amp;rsquo;t simply see that maybe I could write something better, I could prove it was better, given certain conditions and I knew why. I&amp;rsquo;ll post the rough outline here so I can ask more knowledgeable people how close(or far off) I was and why.
-Naive for i in x: for j, k in enumerate(y): if i == k: result." />
-  <meta name="description" content="I spotted a wild Big O application!; exciting since I&amp;rsquo;ve only experienced it as an exercise. Exciting because it clicked, I didn&amp;rsquo;t simply see that maybe I could write something better, I could prove it was better, given certain conditions and I knew why. I&amp;rsquo;ll post the rough outline here so I can ask more knowledgeable people how close(or far off) I was and why.
-Naive for i in x: for j, k in enumerate(y): if i == k: result." />
+  <meta property="og:description" content="I spotted a wild Big O application!; exciting since I&amp;rsquo;ve only experienced it in a controlled-environment. I&amp;rsquo;ll post the rough outline here so I can ask more knowledgeable people how close(or far off) I was and why.
+Naive for i in x: for j, k in enumerate(y): if i == k: result.append(i) More Performant at Scale(Big O) for i in x: index = 0 for j, k in enumerate(y): if i == k: index = j result." />
+  <meta name="description" content="I spotted a wild Big O application!; exciting since I&amp;rsquo;ve only experienced it in a controlled-environment. I&amp;rsquo;ll post the rough outline here so I can ask more knowledgeable people how close(or far off) I was and why.
+Naive for i in x: for j, k in enumerate(y): if i == k: result.append(i) More Performant at Scale(Big O) for i in x: index = 0 for j, k in enumerate(y): if i == k: index = j result." />
   <meta property="og:locale" content="en-us" />
 
   
@@ -103,7 +103,7 @@ Naive for i in x: for j, k in enumerate(y): if i == k: result." />
 
         <div class="post-content markdown-body">
           
-          <p>I spotted a wild Big O application!; exciting since I&rsquo;ve only experienced it as an exercise. Exciting because it clicked, I didn&rsquo;t simply see that <strong>maybe</strong> I could write something better, I could <strong>prove</strong> it was better, given certain conditions <strong>and</strong> I knew <strong>why</strong>.
+          <p>I spotted a wild Big O application!; exciting since I&rsquo;ve only experienced it in a controlled-environment.
 I&rsquo;ll post the rough outline here so I can ask more knowledgeable people how close(or far off) I was and why.</p>
 <h4 id="naive">Naive</h4>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> x:
@@ -120,25 +120,33 @@ I&rsquo;ll post the rough outline here so I can ask more knowledgeable people ho
 			<span style="color:#66d9ef">break</span> 
 	<span style="color:#66d9ef">del</span> y[index] <span style="color:#75715e"># important</span>
 </code></pre></div><p>The naive is n^2(nested for loop, easy), and the improved implementation I <strong>think</strong> is <code>n log n</code>, since y becomes smaller.
-An exciting moment for me even if I&rsquo;m not right since I at least <strong>thought</strong> in these terms, unprompted and in respect to myself coding live. Right or wrong it makes me excited to prompt learning more, instead of as a dry example in a book with toy examples.
+An exciting moment since I <strong>thought</strong> unprompted while coding live about Big O. Right or wrong, I&rsquo;m excited to learn more.
 Respect the little gains, they prompt bigger ones.</p>
 <h3 id="the-doing">The Doing</h3>
 <ul>
-<li>did some sftping, not something I&rsquo;d ever done, though it&rsquo;s basic which is cool because it&rsquo;s useful and not hard to use. Pretty much the pinnacle of any tool design for any erea</li>
+<li>did some sftping, which I&rsquo;ve never done; it&rsquo;s simple in scope, easy to use, and useful: the pinnacle of tool design.</li>
 <li>Wrote a python script that intakes a csv, a json file, updates the json file with the data from the csv in the proper spots, and than dumps out the json again.
 <ul>
-<li>it cleans up the csv-which is a cut/paste job from a spreadsheet,<strong>fun fact</strong>: excel delineates off of \009 when copy and pasted into plain text), which had some troublesome new lines that through off the reading</li>
-<li>did some data validation to make sure every json field needed was there</li>
-<li>future work on it will make it a little more general, parts of it(most of it) is coded specifically to this first file since that was my main objective</li>
+<li>it cleans up the csv - which was a cut/paste job from a spreadsheet. It had troublesome formatting that needed to be accounted for.
+<ul>
+<li><strong>Fun Fact</strong>: excel columns delineate via <code>\009</code> pasted into plain text</li>
 </ul>
 </li>
-<li>Actually wrote a test case for my personal project. I feel the pieces falling into place for me to pick up steam on that again. More on that.</li>
+<li>data validation to ensure all expected json fields were present.</li>
+<li>future work is:
+<ul>
+<li>to make it general(within reason), parts of it(most of it) are coded specifc to one files needs.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>wrote a test case for my personal project! I&rsquo;m picking up steam :).</li>
 </ul>
 <h3 id="the-learning">The Learning</h3>
-<p>After only a brief absence this is <strong>back</strong>, for a limited tenure. Reasons why:</p>
+<p>After only a brief absence <strong>The Learning</strong> is <strong>back</strong> for a limited tenure. Reasons why:</p>
 <ul>
-<li>Wes Bos finally updated his Advanced React course, which I use to keep myself abreast of this sort of stuff. I&rsquo;ve been part of it for awhile, and right as I was about to use react and brush up on it so I could do the frontend for my personal project back in November, Wes said there was a major update coming for his course, so I decided to wait, and here we are 3 months later(maybe longer, definitely not shorter since I know it was before December).</li>
-<li>For my job, I&rsquo;ve been learning and need to continue to learn basic ETL concepts. Had a KT at work today, and that&rsquo;s prompting me to look into the ETL concepts in-light of the Star Schema.</li>
+<li>Wes Bos updated his Advanced React course. I was about to brush up on React for my personal project, Wes said a major update was incoming so I waited; 3 months later here we are.</li>
+<li>I&rsquo;ve been learning learn basic ETL concepts.</li>
 </ul>
 <h3 id="the-future">The Future</h3>
 <ul>
