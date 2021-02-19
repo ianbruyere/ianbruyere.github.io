@@ -6,7 +6,18 @@
     <description>Recent content in Posts on Ian&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Feb 2021 22:46:33 -0500</lastBuildDate><atom:link href="https://ianbruyere.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 18 Feb 2021 21:34:36 -0500</lastBuildDate><atom:link href="https://ianbruyere.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Weekly Commit #9</title>
+      <link>https://ianbruyere.github.io/posts/the-weekly-commit-9/</link>
+      <pubDate>Thu, 18 Feb 2021 21:34:36 -0500</pubDate>
+      
+      <guid>https://ianbruyere.github.io/posts/the-weekly-commit-9/</guid>
+      <description>The Weekly Commit is a bit of a misnomer right now since I&amp;rsquo;m not committed to anything. A bit all over the place this week, but all driven by my own desires, from trying to figure out the Android tooling ecosystem to a talk with my friend about IoT which is spurring some learning in that area.
+I chart my path by not having one.
+The Doing  I put my phone in Debug mode and attempted to find the local database for an opensource app that contained training data I wished to run analysis on  I wasn&amp;rsquo;t succesful, and most resources assumed the app was my own; I&amp;rsquo;ll look into rooting, which may destroy the data I&amp;rsquo;m after.</description>
+    </item>
+    
     <item>
       <title>The Weekly Commit #8</title>
       <link>https://ianbruyere.github.io/posts/the-weekly-commit-8/</link>
