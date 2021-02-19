@@ -13,9 +13,9 @@
       <pubDate>Thu, 18 Feb 2021 21:34:36 -0500</pubDate>
       
       <guid>https://ianbruyere.github.io/posts/the-weekly-commit-9/</guid>
-      <description>The Weekly Commit is a bit of a misnomer right now since I&amp;rsquo;m not committed to anything. A bit all over the place this week, but all driven by my own desires, from trying to figure out the Android tooling ecosystem to a talk with my friend about IoT which is spurring some learning in that area.
+      <description>The Weekly Commit is a bit of a misnomer right now since I&amp;rsquo;m not committed to anything. A bit all over the place this week, from trying out the Android ecosystem to Bluetooth.
 I chart my path by not having one.
-The Doing  I put my phone in Debug mode and attempted to find the local database for an opensource app that contained training data I wished to run analysis on  I wasn&amp;rsquo;t succesful, and most resources assumed the app was my own; I&amp;rsquo;ll look into rooting, which may destroy the data I&amp;rsquo;m after.</description>
+The Doing  attempted to find the local database on a phone that contained training data I wanted  I wasn&amp;rsquo;t succesful, and most resources I googled assumed the app was my own proect.</description>
     </item>
     
     <item>
