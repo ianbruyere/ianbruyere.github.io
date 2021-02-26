@@ -6,7 +6,17 @@
     <description>Recent content in Posts on Ian&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Feb 2021 21:34:36 -0500</lastBuildDate><atom:link href="https://ianbruyere.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 Feb 2021 22:55:30 -0500</lastBuildDate><atom:link href="https://ianbruyere.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Weekly Commit #10</title>
+      <link>https://ianbruyere.github.io/posts/the-weekly-commit-10/</link>
+      <pubDate>Thu, 25 Feb 2021 22:55:30 -0500</pubDate>
+      
+      <guid>https://ianbruyere.github.io/posts/the-weekly-commit-10/</guid>
+      <description>Nothing too much in the meta today.
+The Doing  Used RegEx casually. A nice feeling since I used to actively avoid RegEx saying &amp;ldquo;it&amp;rsquo;s not important&amp;rdquo;. I still need StackOverflow sometimes - and a testbed, it&amp;rsquo;s still RegEx - but I understand and can write basic phrases and know the building blocks.  The Learning I&amp;rsquo;ve decicded to reboot my Theoretical learning starting with mathematics. My goal is low-level commitment, emphasis on commit: 20 minutes a day is all I&amp;rsquo;m going for.</description>
+    </item>
+    
     <item>
       <title>The Weekly Commit #9</title>
       <link>https://ianbruyere.github.io/posts/the-weekly-commit-9/</link>
