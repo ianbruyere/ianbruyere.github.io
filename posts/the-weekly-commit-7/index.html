@@ -21,7 +21,7 @@
       "articleSection" : "posts",
       "name" : "The Weekly Commit #7",
       "headline" : "The Weekly Commit #7",
-      "description" : "I spotted a wild Big O application!; exciting as I\u0026rsquo;ve only experienced it in a controlled-environment. I\u0026rsquo;ll post the outline here so knowledgeable people can say how close(or far off) I was.\nNaive for i in x: for j, k in enumerate(y): if i == k: result.append(i) More Performant at Scale(Big O) for i in x: index = 0 for j, k in enumerate(y): if i == k: index = j result.",
+      "description" : "I spotted a wild Big O application!; exciting as I’ve only experienced it in a controlled-environment. I’ll post the outline here so knowledgeable people can say how close(or far off) I was.\nNaive `for i in x: for j, k in enumerate(y): if i == k: result.append(i)\nMore Performant at Scale(Big O) for i in x: index = 0 for j, k in enumerate(y): if i == k: index = j result.",
       "inLanguage" : "en-US",
       "author" : "",
       "creator" : "",
@@ -38,10 +38,12 @@
 <title>The Weekly Commit #7</title>
   <meta property="og:title" content="The Weekly Commit #7" />
   <meta property="og:type" content="article" />
-  <meta property="og:description" content="I spotted a wild Big O application!; exciting as I&amp;rsquo;ve only experienced it in a controlled-environment. I&amp;rsquo;ll post the outline here so knowledgeable people can say how close(or far off) I was.
-Naive for i in x: for j, k in enumerate(y): if i == k: result.append(i) More Performant at Scale(Big O) for i in x: index = 0 for j, k in enumerate(y): if i == k: index = j result." />
-  <meta name="description" content="I spotted a wild Big O application!; exciting as I&amp;rsquo;ve only experienced it in a controlled-environment. I&amp;rsquo;ll post the outline here so knowledgeable people can say how close(or far off) I was.
-Naive for i in x: for j, k in enumerate(y): if i == k: result.append(i) More Performant at Scale(Big O) for i in x: index = 0 for j, k in enumerate(y): if i == k: index = j result." />
+  <meta property="og:description" content="I spotted a wild Big O application!; exciting as I’ve only experienced it in a controlled-environment. I’ll post the outline here so knowledgeable people can say how close(or far off) I was.
+Naive `for i in x: for j, k in enumerate(y): if i == k: result.append(i)
+More Performant at Scale(Big O) for i in x: index = 0 for j, k in enumerate(y): if i == k: index = j result." />
+  <meta name="description" content="I spotted a wild Big O application!; exciting as I’ve only experienced it in a controlled-environment. I’ll post the outline here so knowledgeable people can say how close(or far off) I was.
+Naive `for i in x: for j, k in enumerate(y): if i == k: result.append(i)
+More Performant at Scale(Big O) for i in x: index = 0 for j, k in enumerate(y): if i == k: index = j result." />
   <meta property="og:locale" content="en-us" />
 
   
@@ -103,45 +105,36 @@ Naive for i in x: for j, k in enumerate(y): if i == k: result.append(i) More Per
 
         <div class="post-content markdown-body">
           
-          <p>I spotted a wild Big O application!; exciting as I&rsquo;ve only experienced it in a controlled-environment.
-I&rsquo;ll post the outline here so knowledgeable people can say how close(or far off) I was.</p>
+          <p>I spotted a wild Big O application!; exciting as I’ve only experienced it in a controlled-environment. I’ll post the outline here so knowledgeable people can say how close(or far off) I was.</p>
 <h4 id="naive">Naive</h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> x:
-	<span style="color:#66d9ef">for</span> j, k <span style="color:#f92672">in</span> enumerate(y):
-		<span style="color:#66d9ef">if</span> i <span style="color:#f92672">==</span> k:
-			result<span style="color:#f92672">.</span>append(i)
-</code></pre></div><h4 id="__more__-performant-at-scalebig-o"><strong>More</strong> Performant at Scale(Big O)</h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> x:
-	index <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
-	<span style="color:#66d9ef">for</span> j, k <span style="color:#f92672">in</span> enumerate(y):
-		<span style="color:#66d9ef">if</span> i <span style="color:#f92672">==</span> k:
-			index <span style="color:#f92672">=</span> j
-			result<span style="color:#f92672">.</span>append(i)
-			<span style="color:#66d9ef">break</span> 
-	<span style="color:#66d9ef">del</span> y[index] <span style="color:#75715e"># important</span>
-</code></pre></div><p>The naive is n^2(nested for loop, easy), and the improved implementation I <strong>think</strong> is <code>n log n</code>, since y becomes smaller.
-An exciting moment since I <strong>thought</strong> unprompted while coding about Big O. Right or wrong, I&rsquo;m excited to learn more.<br>
+<p>`for i in x:
+for j, k in enumerate(y):
+if i == k:
+result.append(i)</p>
+<h4 id="more-performant-at-scalebig-o">More Performant at Scale(Big O)</h4>
+<p><code>for i in x: index = 0 for j, k in enumerate(y): if i == k: index = j result.append(i) break  del y[index] # important</code>
+The naive is n^2(nested for loop, easy), and the improved implementation I <strong>think</strong> is <code>n log n</code>, since y becomes smaller. An exciting moment since I <strong>thought</strong> unprompted while coding about Big O. Right or wrong, I’m excited to learn more.<br>
 Respect the little gains, they prompt bigger ones.</p>
 <h3 id="the-doing">The Doing</h3>
 <ul>
-<li>did some sftping, which I&rsquo;ve never done; it&rsquo;s simple in scope, easy to use, and useful: the pinnacle of tool design.</li>
+<li>did some sftping, which I’ve never done; it’s simple in scope, easy to use, and useful: the pinnacle of tool design.</li>
 <li>Wrote a python script that takes inputs: a csv, a json file; updates json information with data from csv; than writes updated json to an output file.
 <ul>
 <li>cleans up csv - which is a cut/paste job from a spreadsheet. Troublesome formatting had to be accounted for.
 <ul>
-<li><strong>Fun Fact</strong>: excel columns delineate via <code>\009</code> pasted into plain text</li>
+<li><strong>Fun Fact</strong>: excel columns delineate via \009 pasted into plain text</li>
 </ul>
 </li>
 <li>data validation to ensure all expected json fields present.</li>
 <li>future work is:
 <ul>
 <li>make it general(within reason), parts of it(most of it) are coded specifc to one files needs.</li>
-<li>more functional: it can automate even more steps of the process for the application I&rsquo;m writing it for</li>
+<li>more functional: it can automate even more steps of the process for the application I’m writing it for</li>
 </ul>
 </li>
 </ul>
 </li>
-<li>wrote a test case for my personal project! I&rsquo;m picking up steam :).</li>
+<li>wrote a test case for my personal project! I’m picking up steam :).</li>
 </ul>
 <h3 id="the-learning">The Learning</h3>
 <p>After only a brief absence <strong>The Learning</strong> is back for a limited tenure. Reasons why:</p>
@@ -151,7 +144,7 @@ Respect the little gains, they prompt bigger ones.</p>
 </ul>
 <h3 id="the-future">The Future</h3>
 <ul>
-<li>Finish up learning</li>
+<li>Finishing up learning</li>
 <li>writing more test cases for my backend.</li>
 </ul>
 

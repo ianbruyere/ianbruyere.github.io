@@ -6,25 +6,37 @@
     <description>Recent content in Posts on Ian&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Mar 2021 23:38:29 -0400</lastBuildDate><atom:link href="https://ianbruyere.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Apr 2021 23:40:42 -0400</lastBuildDate><atom:link href="https://ianbruyere.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Weekly Commit #15</title>
+      <link>https://ianbruyere.github.io/posts/the-weekly-commit-15/</link>
+      <pubDate>Thu, 01 Apr 2021 23:40:42 -0400</pubDate>
+      
+      <guid>https://ianbruyere.github.io/posts/the-weekly-commit-15/</guid>
+      <description>So&amp;hellip;again I had to troubleshoot this Hugo site. For some reason all my local changes got overwritten. And my backup situation was less than ideal. Managed to preserve all my posts and their timestamps, but as the result of 5 hours of work. Not fun. But done and if this happens in the future should be able to reinstate much easier.
+Keeping the flame of the weekly commit alive.
+The Doing Starting to learn some Linux Admin Stuff.</description>
+    </item>
+    
     <item>
       <title>The Weekly Commit #14</title>
       <link>https://ianbruyere.github.io/posts/the-weekly-commit-14/</link>
-      <pubDate>Thu, 25 Mar 2021 23:38:29 -0400</pubDate>
+      <pubDate>Thu, 25 Mar 2021 23:38:29 -0500</pubDate>
       
       <guid>https://ianbruyere.github.io/posts/the-weekly-commit-14/</guid>
-      <description>I don&amp;rsquo;t have anything I&amp;rsquo;m making any huge waves on. I&amp;rsquo;ve got some things brewing in the back of my mind in terms of fun projectsm but no action.
-Rather I&amp;rsquo;ve been thinking over how much of programming - and life in general - is mainly talking. My new(ish) job has tons of meetings, more than my previous exoerience. And at first, it was galling: I was constantly thinking &amp;ldquo;When are these meetings going to end so I can do the real work&amp;rdquo;.</description>
+      <description>I don’t have anything I’m making any huge waves on. I’ve got some things brewing in the back of my mind in terms of fun projectsm but no action.
+Rather I’ve been thinking over how much of programming - and life in general - is mainly talking. My new(ish) job has tons of meetings, more than my previous experience. And at first, it was galling: I was constantly thinking “When are these meetings going to end so I can do the real work”.</description>
     </item>
     
     <item>
       <title>The Weekly Commit #13</title>
       <link>https://ianbruyere.github.io/posts/the-weekly-commit-13/</link>
-      <pubDate>Thu, 18 Mar 2021 23:29:07 -0400</pubDate>
+      <pubDate>Thu, 18 Mar 2021 23:29:07 -0500</pubDate>
       
       <guid>https://ianbruyere.github.io/posts/the-weekly-commit-13/</guid>
       <description>Still not much popping off this week.
-This is more a placeholder until I get some mojo back. I at least don&amp;rsquo;t want to lose the fact that I&amp;rsquo;m consistently posting even if content is lacking. Life is happening so I can&amp;rsquo;t neglect that.</description>
+This is more a placeholder until I get some mojo back. I at least don’t want to lose the fact that I’m consistently posting even if content is lacking.
+Life is happening so I can’t neglect that.</description>
     </item>
     
     <item>
@@ -44,7 +56,7 @@ The Doing Mainly quality of life things for the computer, no real coding. I beli
       
       <guid>https://ianbruyere.github.io/posts/the-weekly-commit-11/</guid>
       <description>Again not too much going on. Just plugging away.
-The Doing Continuing to at code on my own once a week. This week I stubbed out some data processing on a weightlifting spreadsheet I&amp;rsquo;ve been updating for some years now. Eventually it will be full-flegded with graphing and filters and packaged in it&amp;rsquo;s own Jupyter notebook but for now: cleaning and enforcing data-entry.
+The Doing Continuing to at code on my own once a week. This week I stubbed out some data processing on a weightlifting spreadsheet I’ve been updating for some years now. Eventually it will be full-flegded with graphing and filters and packaged in it’s own Jupyter notebook but for now: cleaning and enforcing data-entry.
 Learning Still committing to the 20 minutes of learning.</description>
     </item>
     
@@ -55,7 +67,7 @@ Learning Still committing to the 20 minutes of learning.</description>
       
       <guid>https://ianbruyere.github.io/posts/the-weekly-commit-10/</guid>
       <description>Nothing too much in the meta today.
-The Doing  Used RegEx casually. A nice feeling since I used to actively avoid RegEx saying &amp;ldquo;it&amp;rsquo;s not important&amp;rdquo;. I still need StackOverflow sometimes - and a testbed, it&amp;rsquo;s still RegEx - but I understand and can write basic phrases and know the building blocks.  The Learning I&amp;rsquo;ve decicded to reboot my Theoretical learning starting with mathematics. My goal is low-level commitment, emphasis on commit: 20 minutes a day is all I&amp;rsquo;m going for.</description>
+The Doing  Used RegEx casually. An exoctic feeling since I used to actively avoid RegEx; I still need StackOverflow - and a testbed - it’s still RegEx after all but I understand the methodoloy and can write basic blocks without reference.  The Learning I’ve decicded to reboot my Theoretical learning starting with mathematics. My goal is low-level commitment, emphasis on commit: 20 minutes a day is all I’m going for.</description>
     </item>
     
     <item>
@@ -64,9 +76,9 @@ The Doing  Used RegEx casually. A nice feeling since I used to actively avoid Re
       <pubDate>Thu, 18 Feb 2021 21:34:36 -0500</pubDate>
       
       <guid>https://ianbruyere.github.io/posts/the-weekly-commit-9/</guid>
-      <description>The Weekly Commit is a bit of a misnomer right now since I&amp;rsquo;m not committed to anything. A bit all over the place this week, from trying out the Android ecosystem to Bluetooth.
+      <description>The Weekly Commit is a bit of a misnomer right now since I’m not committed to anything. A bit all over the place this week, from trying out the Android ecosystem to Bluetooth.
 I chart my path by not having one.
-The Doing  attempted to find the local database on a phone that contained training data I wanted  I wasn&amp;rsquo;t succesful, and most resources I googled assumed the app was my own proect.</description>
+The Doing  attempted to find the local database on a phone that contained training data I wanted  I wasn’t succesful, and most resources I googled assumed the app was my own proect.</description>
     </item>
     
     <item>
@@ -75,7 +87,7 @@ The Doing  attempted to find the local database on a phone that contained traini
       <pubDate>Thu, 11 Feb 2021 22:46:33 -0500</pubDate>
       
       <guid>https://ianbruyere.github.io/posts/the-weekly-commit-8/</guid>
-      <description>Python is becoming easier. Building quick and dirty tools to accomplish busy work are at my fingertips instead of buried in documentation. Now coding is even more fun because I can play around on my own. Bash scripting is getting there too; some syntax throws me(brackets for conditionals&amp;hellip;really?) but I&amp;rsquo;m getting there. The feedback of finishing these small tasks keeps that addictive question &amp;ldquo;What else can I do?&amp;rdquo; on loop.</description>
+      <description>Python is becoming easier. Building quick and dirty tools to accomplish busy work are at my fingertips instead of buried in documentation. Now coding is even more fun because I can play around on my own. Bash scripting is getting there too; some syntax throws me(brackets for conditionals…really!?) but I’m getting there. The feedback of finishing these small tasks keeps that addictive question “What else can I do?” on loop.</description>
     </item>
     
     <item>
@@ -84,8 +96,9 @@ The Doing  attempted to find the local database on a phone that contained traini
       <pubDate>Thu, 04 Feb 2021 20:41:15 -0500</pubDate>
       
       <guid>https://ianbruyere.github.io/posts/the-weekly-commit-7/</guid>
-      <description>I spotted a wild Big O application!; exciting as I&amp;rsquo;ve only experienced it in a controlled-environment. I&amp;rsquo;ll post the outline here so knowledgeable people can say how close(or far off) I was.
-Naive for i in x: for j, k in enumerate(y): if i == k: result.append(i) More Performant at Scale(Big O) for i in x: index = 0 for j, k in enumerate(y): if i == k: index = j result.</description>
+      <description>I spotted a wild Big O application!; exciting as I’ve only experienced it in a controlled-environment. I’ll post the outline here so knowledgeable people can say how close(or far off) I was.
+Naive `for i in x: for j, k in enumerate(y): if i == k: result.append(i)
+More Performant at Scale(Big O) for i in x: index = 0 for j, k in enumerate(y): if i == k: index = j result.</description>
     </item>
     
     <item>
