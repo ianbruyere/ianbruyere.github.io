@@ -6,7 +6,18 @@
     <description>Recent content in Posts on Ian&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Apr 2021 23:40:42 -0400</lastBuildDate><atom:link href="https://ianbruyere.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Apr 2021 23:27:17 -0400</lastBuildDate><atom:link href="https://ianbruyere.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Weekly Commit #16</title>
+      <link>https://ianbruyere.github.io/posts/the-weekly-commit-16/</link>
+      <pubDate>Thu, 08 Apr 2021 23:27:17 -0400</pubDate>
+      
+      <guid>https://ianbruyere.github.io/posts/the-weekly-commit-16/</guid>
+      <description>I get my stuff done, test it but boneheaded mistakes have a way of creeping in.
+I could try and justify it: a new process, not entirely sure of the common checks you learn when something becomes routine; but the reality is my behavior towards development needs changing. Mistakes are costly from a time perspective, especially when priorties have shifted away from development and towards validation and release.
+I&amp;rsquo;m learning to be a little slower with my development; it&amp;rsquo;ll save me time and hassle in the long run.</description>
+    </item>
+    
     <item>
       <title>The Weekly Commit #15</title>
       <link>https://ianbruyere.github.io/posts/the-weekly-commit-15/</link>
