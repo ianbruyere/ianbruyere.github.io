@@ -21,7 +21,7 @@
       "articleSection" : "posts",
       "name" : "The Weekly Commit #7",
       "headline" : "The Weekly Commit #7",
-      "description" : "I spotted a wild Big O application!; exciting as I’ve only experienced it in a controlled-environment. I’ll post the outline here so knowledgeable people can say how close(or far off) I was.\nNaive `for i in x: for j, k in enumerate(y): if i == k: result.append(i)\nMore Performant at Scale(Big O) for i in x: index = 0 for j, k in enumerate(y): if i == k: index = j result.",
+      "description" : "I spotted a wild Big O application!; exciting as I’ve only experienced it in a controlled-environment. I’ll post the outline here so knowledgeable people can say how close(or far off) I was.\nNaive for j, k in enumerate(y): if i == k: result.append(i) More Performant at Scale(Big O) index = 0 for j, k in enumerate(y): if i == k: index = j result.append(i) break del y[index] # important The naive is n^2(nested for loop, easy), and the improved implementation I think is n log n, since y becomes smaller.",
       "inLanguage" : "en-US",
       "author" : "",
       "creator" : "",
@@ -39,11 +39,9 @@
   <meta property="og:title" content="The Weekly Commit #7" />
   <meta property="og:type" content="article" />
   <meta property="og:description" content="I spotted a wild Big O application!; exciting as I’ve only experienced it in a controlled-environment. I’ll post the outline here so knowledgeable people can say how close(or far off) I was.
-Naive `for i in x: for j, k in enumerate(y): if i == k: result.append(i)
-More Performant at Scale(Big O) for i in x: index = 0 for j, k in enumerate(y): if i == k: index = j result." />
+Naive for j, k in enumerate(y): if i == k: result.append(i) More Performant at Scale(Big O) index = 0 for j, k in enumerate(y): if i == k: index = j result.append(i) break del y[index] # important The naive is n^2(nested for loop, easy), and the improved implementation I think is n log n, since y becomes smaller." />
   <meta name="description" content="I spotted a wild Big O application!; exciting as I’ve only experienced it in a controlled-environment. I’ll post the outline here so knowledgeable people can say how close(or far off) I was.
-Naive `for i in x: for j, k in enumerate(y): if i == k: result.append(i)
-More Performant at Scale(Big O) for i in x: index = 0 for j, k in enumerate(y): if i == k: index = j result." />
+Naive for j, k in enumerate(y): if i == k: result.append(i) More Performant at Scale(Big O) index = 0 for j, k in enumerate(y): if i == k: index = j result.append(i) break del y[index] # important The naive is n^2(nested for loop, easy), and the improved implementation I think is n log n, since y becomes smaller." />
   <meta property="og:locale" content="en-us" />
 
   
@@ -107,13 +105,18 @@ More Performant at Scale(Big O) for i in x: index = 0 for j, k in enumerate(y): 
           
           <p>I spotted a wild Big O application!; exciting as I’ve only experienced it in a controlled-environment. I’ll post the outline here so knowledgeable people can say how close(or far off) I was.</p>
 <h4 id="naive">Naive</h4>
-<p>`for i in x:
-for j, k in enumerate(y):
-if i == k:
-result.append(i)</p>
-<h4 id="more-performant-at-scalebig-o">More Performant at Scale(Big O)</h4>
-<p><code>for i in x: index = 0 for j, k in enumerate(y): if i == k: index = j result.append(i) break  del y[index] # important</code>
-The naive is n^2(nested for loop, easy), and the improved implementation I <strong>think</strong> is <code>n log n</code>, since y becomes smaller. An exciting moment since I <strong>thought</strong> unprompted while coding about Big O. Right or wrong, I’m excited to learn more.<br>
+<pre><code class="language-for" data-lang="for">	for j, k in enumerate(y):
+		if i == k:
+			result.append(i)
+</code></pre><h4 id="more-performant-at-scalebig-o">More Performant at Scale(Big O)</h4>
+<pre><code class="language-for" data-lang="for">	index = 0
+	for j, k in enumerate(y):
+		if i == k:
+			index = j
+			result.append(i)
+			break 
+	del y[index] # important
+</code></pre><p>The naive is n^2(nested for loop, easy), and the improved implementation I <strong>think</strong> is <code>n log n</code>, since y becomes smaller. An exciting moment since I <strong>thought</strong> unprompted while coding about Big O. Right or wrong, I’m excited to learn more.<br>
 Respect the little gains, they prompt bigger ones.</p>
 <h3 id="the-doing">The Doing</h3>
 <ul>
