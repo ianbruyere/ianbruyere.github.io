@@ -6,7 +6,16 @@
     <description>Recent content on Ian&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 08 Apr 2021 23:27:17 -0400</lastBuildDate><atom:link href="https://ianbruyere.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 15 Apr 2021 23:18:45 -0400</lastBuildDate><atom:link href="https://ianbruyere.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Weekly Commit #17</title>
+      <link>https://ianbruyere.github.io/posts/the-weekly-commit-17/</link>
+      <pubDate>Thu, 15 Apr 2021 23:18:45 -0400</pubDate>
+      
+      <guid>https://ianbruyere.github.io/posts/the-weekly-commit-17/</guid>
+      <description>I learned the power of Perl this week or rather I witnessed it, I learned nothig other than I know nothing. I was writing a script to move some text files between servers, and a co-worker showed me how with a for loop in bash and a perl one-liner doing the lifting he could accomplish what was taking me about 15 lines of Python. A lesson in the quick and clean writing of scripts; needless to say I was impressed.</description>
+    </item>
+    
     <item>
       <title>The Weekly Commit #16</title>
       <link>https://ianbruyere.github.io/posts/the-weekly-commit-16/</link>
