@@ -14,7 +14,7 @@
       
       <guid>https://ianbruyere.github.io/posts/the-weekly-commit-17/</guid>
       <description>I learned the power of Perl this week . I was writing a script to move some text files between servers, and a co-worker showed me how with bash as the frame and a perl one-liner doing the lifting he could accomplish what was taking me ~15 lines of Python. A lesson in the quick and clean writing of scripts; needless to say I was impressed.
-For the curious it was something like this:  perl -ne &#39;print if filename\.</description>
+For the curious it was something like this:</description>
     </item>
     
     <item>
@@ -118,7 +118,7 @@ The Doing  attempted to find the local database on a phone that contained traini
       
       <guid>https://ianbruyere.github.io/posts/the-weekly-commit-7/</guid>
       <description>I spotted a wild Big O application!; exciting as I’ve only experienced it in a controlled-environment. I’ll post the outline here so knowledgeable people can say how close(or far off) I was.
-Naive for j, k in enumerate(y): if i == k: result.append(i) More Performant at Scale(Big O) index = 0 for j, k in enumerate(y): if i == k: index = j result.append(i) break del y[index] # important The naive is n^2(nested for loop, easy), and the improved implementation I think is n log n, since y becomes smaller.</description>
+Naive for i in x: for j, k in enumerate(y): if i == k: result.append(i) More Performant at Scale(Big O) for i in x: index = 0 for j, k in enumerate(y): if i == k: index = j result.</description>
     </item>
     
     <item>
