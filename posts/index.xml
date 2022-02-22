@@ -14,7 +14,11 @@
       
       <guid>https://ianbruyere.github.io/posts/titan-tracker-dev-blog-0/</guid>
       <description>[Project Repo|https://github.com/ianbruyere/titan-army-tracker]
-Background Titan(1980) is a fun board game, but has significant flaws.\n Some flaws are part of the charm, however some lead to unwieldy games.\n I want to reduce some of the unwieldliness with digital aid.\n Mainly to make moving armies easier, and distribute public army information without having to ask an opponent constantly.\n Some fringe benefits would make saving game state easier since Titan can last upwards of 4 hours,\n takes up significant table real estate, and moving it while preserving game state is an arduous task.</description>
+Background Titan(1980) is a fun board game, but has significant flaws.
+Some flaws are part of the charm, however some lead to unwieldy games.
+I want to reduce some of the unwieldliness with digital aid.
+Mainly to make moving armies easier, and distribute public army information without having to ask an opponent constantly.
+Some fringe benefits would make saving game state easier since Titan can last upwards of 4 hours,</description>
     </item>
     
     <item>
