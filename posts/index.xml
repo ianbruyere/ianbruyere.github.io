@@ -6,7 +6,26 @@
     <description>Recent content in Posts on Ian&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 May 2021 23:47:51 -0400</lastBuildDate><atom:link href="https://ianbruyere.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Feb 2022 23:48:44 -0500</lastBuildDate><atom:link href="https://ianbruyere.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Titan Tracker Dev Blog 0</title>
+      <link>https://ianbruyere.github.io/posts/titan-tracker-dev-blog-0/</link>
+      <pubDate>Mon, 21 Feb 2022 23:48:44 -0500</pubDate>
+      
+      <guid>https://ianbruyere.github.io/posts/titan-tracker-dev-blog-0/</guid>
+      <description>[Project Repo|https://github.com/ianbruyere/titan-army-tracker]
+Background Titan(1980) is a fun board game, but has significant flaws.\n Some flaws are part of the charm, however some lead to unwieldy games.\n I want to reduce some of the unwieldliness with digital aid.\n Mainly to make moving armies easier, and distribute public army information without having to ask an opponent constantly.\n Some fringe benefits would make saving game state easier since Titan can last upwards of 4 hours,\n takes up significant table real estate, and moving it while preserving game state is an arduous task.</description>
+    </item>
+    
+    <item>
+      <title>The Weekly Commit 23</title>
+      <link>https://ianbruyere.github.io/posts/the-weekly-commit-23/</link>
+      <pubDate>Thu, 18 Nov 2021 18:59:44 -0500</pubDate>
+      
+      <guid>https://ianbruyere.github.io/posts/the-weekly-commit-23/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>The Weekly Commit #22</title>
       <link>https://ianbruyere.github.io/posts/the-weekly-commit-22/</link>

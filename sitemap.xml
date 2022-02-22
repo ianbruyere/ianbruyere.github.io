@@ -1,138 +1,90 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://ianbruyere.github.io/</loc>
-    <lastmod>2021-05-20T23:47:51-04:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2022-02-21T23:48:44-05:00</lastmod>
+  </url><url>
     <loc>https://ianbruyere.github.io/posts/</loc>
-    <lastmod>2021-05-20T23:47:51-04:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2022-02-21T23:48:44-05:00</lastmod>
+  </url><url>
+    <loc>https://ianbruyere.github.io/posts/titan-tracker-dev-blog-0/</loc>
+    <lastmod>2022-02-21T23:48:44-05:00</lastmod>
+  </url><url>
+    <loc>https://ianbruyere.github.io/posts/the-weekly-commit-23/</loc>
+    <lastmod>2021-11-18T18:59:44-05:00</lastmod>
+  </url><url>
     <loc>https://ianbruyere.github.io/posts/the-weekly-commit-22/</loc>
     <lastmod>2021-05-20T23:47:51-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ianbruyere.github.io/posts/the-weekly-commit-21/</loc>
     <lastmod>2021-05-13T23:47:05-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ianbruyere.github.io/posts/the-weekly-commit-20/</loc>
     <lastmod>2021-05-06T23:51:47-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ianbruyere.github.io/posts/the-weekly-commit-19/</loc>
     <lastmod>2021-04-29T23:21:21-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ianbruyere.github.io/posts/the-weekly-commit-18/</loc>
     <lastmod>2021-04-22T23:49:30-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ianbruyere.github.io/posts/the-weekly-commit-17/</loc>
     <lastmod>2021-04-15T23:18:45-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ianbruyere.github.io/posts/the-weekly-commit-16/</loc>
     <lastmod>2021-04-08T23:27:17-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ianbruyere.github.io/posts/the-weekly-commit-15/</loc>
     <lastmod>2021-04-01T23:40:42-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ianbruyere.github.io/posts/the-weekly-commit-14/</loc>
     <lastmod>2021-03-25T23:38:29-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ianbruyere.github.io/posts/the-weekly-commit-13/</loc>
     <lastmod>2021-03-18T23:29:07-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ianbruyere.github.io/posts/the-weekly-commit-12/</loc>
     <lastmod>2021-03-11T22:26:49-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ianbruyere.github.io/posts/the-weekly-commit-11/</loc>
     <lastmod>2021-03-04T22:24:11-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ianbruyere.github.io/posts/the-weekly-commit-10/</loc>
     <lastmod>2021-02-25T22:55:30-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ianbruyere.github.io/posts/the-weekly-commit-9/</loc>
     <lastmod>2021-02-18T21:34:36-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ianbruyere.github.io/posts/the-weekly-commit-8/</loc>
     <lastmod>2021-02-11T22:46:33-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ianbruyere.github.io/posts/the-weekly-commit-7/</loc>
     <lastmod>2021-02-04T20:41:15-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ianbruyere.github.io/posts/the-weekly-commit-6/</loc>
     <lastmod>2021-01-28T23:45:56-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ianbruyere.github.io/posts/the-weekly-commit-5/</loc>
     <lastmod>2021-01-21T23:20:06-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ianbruyere.github.io/posts/the-weekly-commit-4/</loc>
     <lastmod>2021-01-14T23:21:06-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ianbruyere.github.io/posts/the-weekly-commit-3/</loc>
     <lastmod>2021-01-07T23:18:14-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ianbruyere.github.io/posts/the-weekly-commit-2/</loc>
     <lastmod>2020-12-31T23:22:27-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ianbruyere.github.io/posts/the-weekly-commit-1/</loc>
     <lastmod>2020-12-24T21:31:17-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ianbruyere.github.io/about/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ianbruyere.github.io/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ianbruyere.github.io/tags/</loc>
   </url>
-  
 </urlset>
