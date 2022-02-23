@@ -19,8 +19,8 @@
            "@id": "https:\/\/ianbruyere.github.io"
       },
       "articleSection" : "posts",
-      "name" : "Titan Tracker Dev Blog 0",
-      "headline" : "Titan Tracker Dev Blog 0",
+      "name" : "Titan Dev Diary Entry #1",
+      "headline" : "Titan Dev Diary Entry #1",
       "description" : "[Project Repo|https:\/\/github.com\/ianbruyere\/titan-army-tracker]\nBackground Titan(1980) is a fun board game, but has significant flaws.\nSome flaws are part of the charm, however some lead to unwieldy games.\nI want to reduce some of the unwieldliness with digital aid.\nMainly to make moving armies easier, and distribute public army information without having to ask an opponent constantly.\nSome fringe benefits would make saving game state easier since Titan can last upwards of 4 hours,",
       "inLanguage" : "en-US",
       "author" : "",
@@ -35,8 +35,8 @@
       "keywords" : [  ]
   }
 </script>
-<title>Titan Tracker Dev Blog 0</title>
-  <meta property="og:title" content="Titan Tracker Dev Blog 0" />
+<title>Titan Dev Diary Entry #1</title>
+  <meta property="og:title" content="Titan Dev Diary Entry #1" />
   <meta property="og:type" content="article" />
   <meta property="og:description" content="[Project Repo|https://github.com/ianbruyere/titan-army-tracker]
 Background Titan(1980) is a fun board game, but has significant flaws.
@@ -110,7 +110,7 @@ Some fringe benefits would make saving game state easier since Titan can last up
 
         </div>
         <header class="post-header">
-          <h1 class="post-title">Titan Tracker Dev Blog 0</h1>
+          <h1 class="post-title">Titan Dev Diary Entry #1</h1>
           
           <div class="row post-desc">
             <div class="col-xs-6">
@@ -179,14 +179,14 @@ I cut the heads of each problem, but failed to cauterize, as each resolution wou
 <li>during callback event, label information wasn&rsquo;t present &ndash;&gt; major sticking point</li>
 </ul>
 </li>
-<li>general UI plague
-It was about a 6 hour effort this time.
+<li>general UI plague</li>
+</ul>
+<p>It was about a 6 hour effort this time.
 I wasted time by failing to note that SO answers were 8+ years old referring to Python 2 tkinter implementation.<br>
 This was hamstringing me in one specfic way, and compounded with my general unfamiliarity with <code>tkinter</code> caused me quite a few headaches.<br>
 Refactoring my code helped greatly though, reducing the surface area of where errors could be coming from and allowing me to find problem spots much easier.<br>
 Though intially I was post-poning it for <strong>after</strong> I&rsquo;d resolved the issues.<br>
-I was able to have a complete Setup Screen to show off.</li>
-</ul>
+I was able to have a complete Setup Screen to show off.</p>
 <h2 id="day-2">Day 2</h2>
 <p><strong>Commit: ad3e49bb532ebca99a332defa2a84e9b230f9e00</strong><br>
 This was the day where I bit off more than I could chew.
@@ -195,8 +195,9 @@ I wasn&rsquo;t sure how <code>tkinter</code> was behaving or would behave betwee
 <ol>
 <li>How would the information flow between them?</li>
 <li>How would I maintain state of the other players?</li>
-<li>How would each player get their own GUI element in the same app but be able to update discretely?<br>
-I&rsquo;m good at coming up with the questions I need answered, but finding adequate answers is troublesome.<br>
+<li>How would each player get their own GUI element in the same app but be able to update discretely?</li>
+</ol>
+<p>I&rsquo;m good at coming up with the questions I need answered, but finding adequate answers is troublesome.<br>
 The blog circuit has lost it&rsquo;s utility at this stage: it too heavily focuses on toy examples, and also more on how than why or whats going on.<br>
 Typically at this point I RTFM but it&rsquo;s more of a problem of what I was using <code>tkinter</code> for, rather then with <code>tkinter</code> specifically.<br>
 Most of my time today I spent <strong>thinking</strong> about the problem as I took care of other concerns: chores, working out, being a bum(it was a day off after all).<br>
@@ -205,13 +206,11 @@ My attempt to gain traction was wrongheaded or the hugeness of what I had to do/
 What eventually helped was my knowledge of web programming. I&rsquo;ve done frontend stuff before; I was only unfamiliar with tkinter, not the concepts it was built off.<br>
 With that mental model, I was able to hack out something that I think will be the basis of how the whole project will work.<br>
 Also worth mentioning is one of stumbling steps forward throughout the day had me simply make another <code>tk</code> app class.<br>
-A stopgap way of making the problem smaller by skirting Question 3, allowing me to get the idea right in my head, and now I have a good idea of how I&rsquo;ll solve that problem.<br>
-I see lot&rsquo;s of refactoring in my future.<br>
-One of the more anticipatory moments of coding for me: after you get feature working,<br>
-you spend a couple cathartic sessions reorganizing, and refactoring.<br>
-Then seeing all those changes in git&hellip;<em>chef&rsquo;s kiss</em>.<br>
-Enjoy the spaghetti while it lasts though.</li>
-</ol>
+A stopgap by skirting Question 3, wrestling the problem into something my brain can handle' despite the avoidance, I now have an idea of how I';; manage it..<br>
+Refactoring is in my future.<br>
+An anticipatory moment for me: you get feature working, spend a couple cathartic sessions reorganizing, and refactoring.<br>
+Then seeing all those changes in git&hellip;<em>chef&rsquo;s kiss</em>. It&rsquo;s almost like I know how to code.<br>
+Enjoy the spaghetti while it lasts though.</p>
 
         </div>
 
