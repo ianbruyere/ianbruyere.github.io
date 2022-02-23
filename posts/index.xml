@@ -9,16 +9,17 @@
     <lastBuildDate>Mon, 21 Feb 2022 23:48:44 -0500</lastBuildDate><atom:link href="https://ianbruyere.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Titan Dev Diary Entry #1</title>
-      <link>https://ianbruyere.github.io/posts/titan-tracker-dev-blog-0/</link>
+      <link>https://ianbruyere.github.io/posts/titan-dev-diary-1/</link>
       <pubDate>Mon, 21 Feb 2022 23:48:44 -0500</pubDate>
       
-      <guid>https://ianbruyere.github.io/posts/titan-tracker-dev-blog-0/</guid>
+      <guid>https://ianbruyere.github.io/posts/titan-dev-diary-1/</guid>
       <description>[Project Repo|https://github.com/ianbruyere/titan-army-tracker]
 Background Titan(1980) is a fun board game, but has significant flaws.
-Some flaws are part of the charm, however some lead to unwieldy games.
+Some flaws are charming, some make it unwieldly.
 I want to reduce some of the unwieldliness with digital aid.
 Mainly to make moving armies easier, and distribute public army information without having to ask an opponent constantly.
-Some fringe benefits would make saving game state easier since Titan can last upwards of 4 hours,</description>
+Some fringe benefits would make saving game state easier since Titan can last upwards of 4 hours,
+takes up significant table real estate, and moving it while preserving game state is an arduous task.</description>
     </item>
     
     <item>
