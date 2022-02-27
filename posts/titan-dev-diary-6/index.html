@@ -7,8 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="author" content="" />
-  <meta property="og:url" content="https://ianbruyere.github.io/posts/" />
-  <link rel="canonical" href="https://ianbruyere.github.io/posts/" /><link rel="alternate" type="application/atom+xml" href="https://ianbruyere.github.ioindex.xml" title="Ian&#39;s Blog">
+  <meta property="og:url" content="https://ianbruyere.github.io/posts/titan-dev-diary-6/" />
+  <link rel="canonical" href="https://ianbruyere.github.io/posts/titan-dev-diary-6/" /><link rel="alternate" type="application/atom+xml" href="https://ianbruyere.github.ioindex.xml" title="Ian&#39;s Blog">
 
   <script type="application/ld+json">
   {
@@ -19,9 +19,9 @@
            "@id": "https:\/\/ianbruyere.github.io"
       },
       "articleSection" : "posts",
-      "name" : "Posts",
-      "headline" : "Posts",
-      "description" : "",
+      "name" : "Titan Dev Diary #6",
+      "headline" : "Titan Dev Diary #6",
+      "description" : "Day 6 Commit Hash: More progress. Refactored code a little to have classes coresponding to the current action, as opposed to lumping them all in to one area. Doesn\u0026rsquo;t matter so much on User side but easier from a development perspective.\nThe Breakdown\nFeatures Added:\n Resolve battle now updates Overview Correctly A \u0026ldquo;Turn\u0026rdquo; function is in-process: will guide a player through valid actions per army.  Some UI Errors:",
       "inLanguage" : "en-US",
       "author" : "",
       "creator" : "",
@@ -31,15 +31,21 @@
       "copyrightYear" : "2022",
       "datePublished": "2022-02-26 14:50:03 -0500 EST",
       "dateModified" : "2022-02-26 14:50:03 -0500 EST",
-      "url" : "https:\/\/ianbruyere.github.io\/posts\/",
+      "url" : "https:\/\/ianbruyere.github.io\/posts\/titan-dev-diary-6\/",
       "keywords" : [  ]
   }
 </script>
-<title>Posts</title>
-  <meta property="og:title" content="Posts" />
+<title>Titan Dev Diary #6</title>
+  <meta property="og:title" content="Titan Dev Diary #6" />
   <meta property="og:type" content="article" />
-  <meta property="og:description" content="" />
-  <meta name="description" content="" />
+  <meta property="og:description" content="Day 6 Commit Hash: More progress. Refactored code a little to have classes coresponding to the current action, as opposed to lumping them all in to one area. Doesn&amp;rsquo;t matter so much on User side but easier from a development perspective.
+The Breakdown
+Features Added:
+ Resolve battle now updates Overview Correctly A &amp;ldquo;Turn&amp;rdquo; function is in-process: will guide a player through valid actions per army.  Some UI Errors:" />
+  <meta name="description" content="Day 6 Commit Hash: More progress. Refactored code a little to have classes coresponding to the current action, as opposed to lumping them all in to one area. Doesn&amp;rsquo;t matter so much on User side but easier from a development perspective.
+The Breakdown
+Features Added:
+ Resolve battle now updates Overview Correctly A &amp;ldquo;Turn&amp;rdquo; function is in-process: will guide a player through valid actions per army.  Some UI Errors:" />
   <meta property="og:locale" content="en-us" />
 
   
@@ -65,10 +71,11 @@
 
 
 <body>
-  <article class="posts">
+  <article class="post " id="article">
     <div class="row">
       <div class="col-xs-12">
-        
+        <div class="site-header">
+          
 <header>
   <div class="header-title">
     <a href="/"
@@ -97,403 +104,81 @@
 </div>
 <div class="header-line"></div>
 
-
-        <h1 class="taxonomy-term"></h1>
-        <div id="posts-list">
-          <section>
-            <h1 class="site-date-catalog">2022</h1>
-
-            
-            <div class="row posts-line">
-              <div class="posts-date col-xs-2">
-                <time datetime="2022-02-26 14:50:03 EST">Feb 26</time>
-              </div>
-              <div class="posts-title col-xs-10">
-                <div class="row">
-                  <div class="col-xs-12">
-                    <a href="/posts/titan-dev-diary-6/">Titan Dev Diary #6</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <div class="row posts-line">
-              <div class="posts-date col-xs-2">
-                <time datetime="2022-02-25 14:50:00 EST">Feb 25</time>
-              </div>
-              <div class="posts-title col-xs-10">
-                <div class="row">
-                  <div class="col-xs-12">
-                    <a href="/posts/titan-dev-diary-5/">Titan Dev Diary #5</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <div class="row posts-line">
-              <div class="posts-date col-xs-2">
-                <time datetime="2022-02-24 14:49:47 EST">Feb 24</time>
-              </div>
-              <div class="posts-title col-xs-10">
-                <div class="row">
-                  <div class="col-xs-12">
-                    <a href="/posts/titan-dev-diary-4/">Titan Dev Diary #4</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <div class="row posts-line">
-              <div class="posts-date col-xs-2">
-                <time datetime="2022-02-23 14:49:52 EST">Feb 23</time>
-              </div>
-              <div class="posts-title col-xs-10">
-                <div class="row">
-                  <div class="col-xs-12">
-                    <a href="/posts/titan-dev-diary-3/">Titan Dev Diary #3</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <div class="row posts-line">
-              <div class="posts-date col-xs-2">
-                <time datetime="2022-02-22 02:46:47 EST">Feb 22</time>
-              </div>
-              <div class="posts-title col-xs-10">
-                <div class="row">
-                  <div class="col-xs-12">
-                    <a href="/posts/titan-dev-diary-2/">Titan Dev Diary #2</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <div class="row posts-line">
-              <div class="posts-date col-xs-2">
-                <time datetime="2022-02-21 23:48:44 EST">Feb 21</time>
-              </div>
-              <div class="posts-title col-xs-10">
-                <div class="row">
-                  <div class="col-xs-12">
-                    <a href="/posts/titan-dev-diary-1/">Titan Dev Diary #1</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <div class="row posts-line">
-              <div class="posts-date col-xs-2">
-                <time datetime="2022-02-01 18:59:44 EST">Feb 01</time>
-              </div>
-              <div class="posts-title col-xs-10">
-                <div class="row">
-                  <div class="col-xs-12">
-                    <a href="/posts/the-weekly-commit-23/">Pivot</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-          </section>
-          <section>
-            <h1 class="site-date-catalog">2021</h1>
-
-            
-            <div class="row posts-line">
-              <div class="posts-date col-xs-2">
-                <time datetime="2021-05-20 23:47:51 EDT">May 20</time>
-              </div>
-              <div class="posts-title col-xs-10">
-                <div class="row">
-                  <div class="col-xs-12">
-                    <a href="/posts/the-weekly-commit-22/">The Weekly Commit #22</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <div class="row posts-line">
-              <div class="posts-date col-xs-2">
-                <time datetime="2021-05-13 23:47:05 EDT">May 13</time>
-              </div>
-              <div class="posts-title col-xs-10">
-                <div class="row">
-                  <div class="col-xs-12">
-                    <a href="/posts/the-weekly-commit-21/">The Weekly Commit #21</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <div class="row posts-line">
-              <div class="posts-date col-xs-2">
-                <time datetime="2021-05-06 23:51:47 EDT">May 06</time>
-              </div>
-              <div class="posts-title col-xs-10">
-                <div class="row">
-                  <div class="col-xs-12">
-                    <a href="/posts/the-weekly-commit-20/">The Weekly Commit #20</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <div class="row posts-line">
-              <div class="posts-date col-xs-2">
-                <time datetime="2021-04-29 23:21:21 EDT">Apr 29</time>
-              </div>
-              <div class="posts-title col-xs-10">
-                <div class="row">
-                  <div class="col-xs-12">
-                    <a href="/posts/the-weekly-commit-19/">The Weekly Commit #19</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <div class="row posts-line">
-              <div class="posts-date col-xs-2">
-                <time datetime="2021-04-22 23:49:30 EDT">Apr 22</time>
-              </div>
-              <div class="posts-title col-xs-10">
-                <div class="row">
-                  <div class="col-xs-12">
-                    <a href="/posts/the-weekly-commit-18/">The Weekly Commit #18</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <div class="row posts-line">
-              <div class="posts-date col-xs-2">
-                <time datetime="2021-04-15 23:18:45 EDT">Apr 15</time>
-              </div>
-              <div class="posts-title col-xs-10">
-                <div class="row">
-                  <div class="col-xs-12">
-                    <a href="/posts/the-weekly-commit-17/">The Weekly Commit #17</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <div class="row posts-line">
-              <div class="posts-date col-xs-2">
-                <time datetime="2021-04-08 23:27:17 EDT">Apr 08</time>
-              </div>
-              <div class="posts-title col-xs-10">
-                <div class="row">
-                  <div class="col-xs-12">
-                    <a href="/posts/the-weekly-commit-16/">The Weekly Commit #16</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <div class="row posts-line">
-              <div class="posts-date col-xs-2">
-                <time datetime="2021-04-01 23:40:42 EDT">Apr 01</time>
-              </div>
-              <div class="posts-title col-xs-10">
-                <div class="row">
-                  <div class="col-xs-12">
-                    <a href="/posts/the-weekly-commit-15/">The Weekly Commit #15</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <div class="row posts-line">
-              <div class="posts-date col-xs-2">
-                <time datetime="2021-03-25 23:38:29 -0500">Mar 25</time>
-              </div>
-              <div class="posts-title col-xs-10">
-                <div class="row">
-                  <div class="col-xs-12">
-                    <a href="/posts/the-weekly-commit-14/">The Weekly Commit #14</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <div class="row posts-line">
-              <div class="posts-date col-xs-2">
-                <time datetime="2021-03-18 23:29:07 -0500">Mar 18</time>
-              </div>
-              <div class="posts-title col-xs-10">
-                <div class="row">
-                  <div class="col-xs-12">
-                    <a href="/posts/the-weekly-commit-13/">The Weekly Commit #13</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <div class="row posts-line">
-              <div class="posts-date col-xs-2">
-                <time datetime="2021-03-11 22:26:49 EST">Mar 11</time>
-              </div>
-              <div class="posts-title col-xs-10">
-                <div class="row">
-                  <div class="col-xs-12">
-                    <a href="/posts/the-weekly-commit-12/">The Weekly Commit #12</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <div class="row posts-line">
-              <div class="posts-date col-xs-2">
-                <time datetime="2021-03-04 22:24:11 EST">Mar 04</time>
-              </div>
-              <div class="posts-title col-xs-10">
-                <div class="row">
-                  <div class="col-xs-12">
-                    <a href="/posts/the-weekly-commit-11/">The Weekly Commit #11</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <div class="row posts-line">
-              <div class="posts-date col-xs-2">
-                <time datetime="2021-02-25 22:55:30 EST">Feb 25</time>
-              </div>
-              <div class="posts-title col-xs-10">
-                <div class="row">
-                  <div class="col-xs-12">
-                    <a href="/posts/the-weekly-commit-10/">The Weekly Commit #10</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <div class="row posts-line">
-              <div class="posts-date col-xs-2">
-                <time datetime="2021-02-18 21:34:36 EST">Feb 18</time>
-              </div>
-              <div class="posts-title col-xs-10">
-                <div class="row">
-                  <div class="col-xs-12">
-                    <a href="/posts/the-weekly-commit-9/">The Weekly Commit #9</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <div class="row posts-line">
-              <div class="posts-date col-xs-2">
-                <time datetime="2021-02-11 22:46:33 EST">Feb 11</time>
-              </div>
-              <div class="posts-title col-xs-10">
-                <div class="row">
-                  <div class="col-xs-12">
-                    <a href="/posts/the-weekly-commit-8/">The Weekly Commit #8</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <div class="row posts-line">
-              <div class="posts-date col-xs-2">
-                <time datetime="2021-02-04 20:41:15 EST">Feb 04</time>
-              </div>
-              <div class="posts-title col-xs-10">
-                <div class="row">
-                  <div class="col-xs-12">
-                    <a href="/posts/the-weekly-commit-7/">The Weekly Commit #7</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <div class="row posts-line">
-              <div class="posts-date col-xs-2">
-                <time datetime="2021-01-28 23:45:56 EST">Jan 28</time>
-              </div>
-              <div class="posts-title col-xs-10">
-                <div class="row">
-                  <div class="col-xs-12">
-                    <a href="/posts/the-weekly-commit-6/">The Weekly Commit #6</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <div class="row posts-line">
-              <div class="posts-date col-xs-2">
-                <time datetime="2021-01-21 23:20:06 EST">Jan 21</time>
-              </div>
-              <div class="posts-title col-xs-10">
-                <div class="row">
-                  <div class="col-xs-12">
-                    <a href="/posts/the-weekly-commit-5/">The Weekly Commit #5</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <div class="row posts-line">
-              <div class="posts-date col-xs-2">
-                <time datetime="2021-01-14 23:21:06 EST">Jan 14</time>
-              </div>
-              <div class="posts-title col-xs-10">
-                <div class="row">
-                  <div class="col-xs-12">
-                    <a href="/posts/the-weekly-commit-4/">The Weekly Commit #4</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <div class="row posts-line">
-              <div class="posts-date col-xs-2">
-                <time datetime="2021-01-07 23:18:14 EST">Jan 07</time>
-              </div>
-              <div class="posts-title col-xs-10">
-                <div class="row">
-                  <div class="col-xs-12">
-                    <a href="/posts/the-weekly-commit-3/">The Weekly Commit #3</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-          </section>
-          <section>
-            <h1 class="site-date-catalog">2020</h1>
-
-            
-            <div class="row posts-line">
-              <div class="posts-date col-xs-2">
-                <time datetime="2020-12-31 23:22:27 EST">Dec 31</time>
-              </div>
-              <div class="posts-title col-xs-10">
-                <div class="row">
-                  <div class="col-xs-12">
-                    <a href="/posts/the-weekly-commit-2/">The Weekly Commit #2</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <div class="row posts-line">
-              <div class="posts-date col-xs-2">
-                <time datetime="2020-12-24 21:31:17 EST">Dec 24</time>
-              </div>
-              <div class="posts-title col-xs-10">
-                <div class="row">
-                  <div class="col-xs-12">
-                    <a href="/posts/the-weekly-commit-1/">The Weekly Commit #1</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-          </section>
-          
         </div>
+        <header class="post-header">
+          <h1 class="post-title">Titan Dev Diary #6</h1>
+          
+          <div class="row post-desc">
+            <div class="col-xs-6">
+              
+              <time class="post-date" datetime="2022-02-26 14:50:03 EST">
+                26 Feb 2022
+              </time>
+              
+            </div>
+            <div class="col-xs-6">
+              
+            </div>
+          </div>
+          
+        </header>
+
+        <div class="post-content markdown-body">
+          
+          <h2 id="day-6">Day 6</h2>
+<p><strong>Commit Hash</strong>:
+More progress.
+Refactored code a little to have classes coresponding to the current action, as opposed to
+lumping them all in to one area. Doesn&rsquo;t matter so much on User side but easier
+from a development perspective.</p>
+<p><strong>The Breakdown</strong><br>
+Features Added:</p>
+<ul>
+<li>Resolve battle now updates Overview Correctly</li>
+<li>A &ldquo;Turn&rdquo; function is in-process: will guide a player through valid actions per  army.</li>
+</ul>
+<p>Some UI Errors:</p>
+<ul>
+<li>Units removed after Resolve Battle will persist on army screen until close-reopen</li>
+<li>Newly mustered units will not recieve tick-box until close-reopen on Resolve Battle Screen</li>
+<li>When Army is reduced to 0, does not come off Overview</li>
+</ul>
+<p>Upcoming:</p>
+<ul>
+<li>Resolve above errors</li>
+<li>Add score allocation for resolve battle, and surrender tick-box</li>
+<li>Skip button for actions you don&rsquo;t want to take</li>
+<li>Get Started on the Big Daddy: Splitting Army</li>
+</ul>
+<p>Nice-to-Haves:</p>
+<ul>
+<li>Lineage: only units that you can populate with given units populate ddl for muster</li>
+<li>Incorporate colors of units into text</li>
+</ul>
+
+        </div>
+
+        <div class="row middle-xs">
+          <div class="col-xs-12">
+            
+          </div>
+        </div>
+        
+          <div class="row">
+            <div class="col-xs-12">
+              
+            </div>
+          </div>
+
+          
+
+
+
+          
+          
+          <div style="height: 50px;"></div>
+          
+        
 
         <div class="site-footer">
   
@@ -513,6 +198,8 @@
     
   
 </script>
+
+  
 
 </body>
 
