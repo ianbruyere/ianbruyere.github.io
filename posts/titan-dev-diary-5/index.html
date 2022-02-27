@@ -21,7 +21,7 @@
       "articleSection" : "posts",
       "name" : "Titan Dev Diary #5",
       "headline" : "Titan Dev Diary #5",
-      "description" : "Day 5 Commit Hash: 83f45e68913d98b37de982954d3af609d3af9788 Iteratively hitting walls, walking down wrong paths, but still finding a way forward. Stomped through the problems. Proud to say I did most of my own hackingg. When I reached a deadend, I understood enough to get to the other side. At points when beseeching external resources I\u0026rsquo;d already implemented their sage suggestions,\nwhich means I\u0026rsquo;m bamboozled by simple problems or I\u0026rsquo;m at the bleeding edge of a problem space.",
+      "description" : "Day 5 Commit Hash: 83f45e68913d98b37de982954d3af609d3af9788\nIteratively hitting walls, walking down wrong paths, but still finding a way forward. I understand tkinter enough to be my own guiding light. At points when beseeching external resources I\u0026rsquo;d already implemented their sage suggestions, which means either I\u0026rsquo;m bamboozled by simple problems or I\u0026rsquo;m at the bleeding edge of a problem space. Should I be ashamed or proud?\nFeatures Added:\n Player overview now updates according to muster Army overview also updates in response to mustering event  Upcoming:",
       "inLanguage" : "en-US",
       "author" : "",
       "creator" : "",
@@ -38,10 +38,14 @@
 <title>Titan Dev Diary #5</title>
   <meta property="og:title" content="Titan Dev Diary #5" />
   <meta property="og:type" content="article" />
-  <meta property="og:description" content="Day 5 Commit Hash: 83f45e68913d98b37de982954d3af609d3af9788 Iteratively hitting walls, walking down wrong paths, but still finding a way forward. Stomped through the problems. Proud to say I did most of my own hackingg. When I reached a deadend, I understood enough to get to the other side. At points when beseeching external resources I&amp;rsquo;d already implemented their sage suggestions,
-which means I&amp;rsquo;m bamboozled by simple problems or I&amp;rsquo;m at the bleeding edge of a problem space." />
-  <meta name="description" content="Day 5 Commit Hash: 83f45e68913d98b37de982954d3af609d3af9788 Iteratively hitting walls, walking down wrong paths, but still finding a way forward. Stomped through the problems. Proud to say I did most of my own hackingg. When I reached a deadend, I understood enough to get to the other side. At points when beseeching external resources I&amp;rsquo;d already implemented their sage suggestions,
-which means I&amp;rsquo;m bamboozled by simple problems or I&amp;rsquo;m at the bleeding edge of a problem space." />
+  <meta property="og:description" content="Day 5 Commit Hash: 83f45e68913d98b37de982954d3af609d3af9788
+Iteratively hitting walls, walking down wrong paths, but still finding a way forward. I understand tkinter enough to be my own guiding light. At points when beseeching external resources I&amp;rsquo;d already implemented their sage suggestions, which means either I&amp;rsquo;m bamboozled by simple problems or I&amp;rsquo;m at the bleeding edge of a problem space. Should I be ashamed or proud?
+Features Added:
+ Player overview now updates according to muster Army overview also updates in response to mustering event  Upcoming:" />
+  <meta name="description" content="Day 5 Commit Hash: 83f45e68913d98b37de982954d3af609d3af9788
+Iteratively hitting walls, walking down wrong paths, but still finding a way forward. I understand tkinter enough to be my own guiding light. At points when beseeching external resources I&amp;rsquo;d already implemented their sage suggestions, which means either I&amp;rsquo;m bamboozled by simple problems or I&amp;rsquo;m at the bleeding edge of a problem space. Should I be ashamed or proud?
+Features Added:
+ Player overview now updates according to muster Army overview also updates in response to mustering event  Upcoming:" />
   <meta property="og:locale" content="en-us" />
 
   
@@ -122,14 +126,12 @@ which means I&amp;rsquo;m bamboozled by simple problems or I&amp;rsquo;m at the 
         <div class="post-content markdown-body">
           
           <h2 id="day-5">Day 5</h2>
-<p><strong>Commit Hash</strong>: 83f45e68913d98b37de982954d3af609d3af9788
+<p><strong>Commit Hash</strong>: 83f45e68913d98b37de982954d3af609d3af9788<br>
 Iteratively hitting walls, walking down wrong paths, but still finding a way forward.
-Stomped through the problems. Proud to say I did most of my own hackingg.
-When I reached a deadend, I understood enough to get to the other side.
-At points when beseeching external resources I&rsquo;d already implemented their sage suggestions,<br>
-which means I&rsquo;m bamboozled by simple problems or I&rsquo;m at the bleeding edge of a problem space.
-Should I be ashamed or proud?
-I&rsquo;ll let the blinding glory of my Titan app be the ultimate decider Today. Bask.</p>
+I understand <code>tkinter</code> enough to be my own guiding light. At points when beseeching external
+resources I&rsquo;d already implemented their sage suggestions, which means either
+I&rsquo;m bamboozled by simple problems or I&rsquo;m at the bleeding edge of a problem space.
+Should I be ashamed or proud?</p>
 <p>Features Added:</p>
 <ul>
 <li>Player overview now updates according to muster</li>
@@ -155,8 +157,8 @@ I&rsquo;ll let the blinding glory of my Titan app be the ultimate decider Today.
 <p>Questionable</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Python" data-lang="Python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">open_menu</span>(self, event, army, player):
     window <span style="color:#f92672">=</span> PlayerArmyMenu(self, self<span style="color:#f92672">.</span>army, player)
-</code></pre></div><p>I&rsquo;m mystified by if I should be passing the army variable everywhere or via self.<br>
-Probably the former, makes for easier id as opposed to what figuring out access.<br>
+</code></pre></div><p>Should I be passing the army variable everywhere or via self.<br>
+Probably the former, makes for easier id as opposed determining what &lsquo;self&rsquo; I&rsquo;m on.
 It works either way, but death via spaghetti is impending.</p>
 
         </div>

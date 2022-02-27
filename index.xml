@@ -13,10 +13,12 @@
       <pubDate>Sat, 26 Feb 2022 14:50:03 -0500</pubDate>
       
       <guid>https://ianbruyere.github.io/posts/titan-dev-diary-6/</guid>
-      <description>Day 6 Commit Hash: e873ea2a82e09165a8a6297977f0698169e0e854 More progress. Refactored code a little to have classes coresponding to the current action, as opposed to lumping them all in to one area. Doesn&amp;rsquo;t matter so much on User side but easier from a development perspective.
+      <description>Day 6 Commit Hash: e873ea2a82e09165a8a6297977f0698169e0e854
+I&amp;rsquo;ve mostly brushed the rust off my Object-Oriented programming for Python. Refactored code to have classes coresponding to the current action, as opposed to lumping them all into one area. Doesn&amp;rsquo;t matter so much on the UI side but easier
+from a development perspective.
 The Breakdown
 Features Added:
- Resolve battle now updates Overview Correctly A &amp;ldquo;Turn&amp;rdquo; function is in-process: will guide a player through valid actions per army.  Some UI Errors:</description>
+ Resolve battle now updates Overview Correctly A &amp;ldquo;Turn&amp;rdquo; function is in-process: will guide a player through valid actions per army.</description>
     </item>
     
     <item>
@@ -25,8 +27,10 @@ Features Added:
       <pubDate>Fri, 25 Feb 2022 14:50:00 -0500</pubDate>
       
       <guid>https://ianbruyere.github.io/posts/titan-dev-diary-5/</guid>
-      <description>Day 5 Commit Hash: 83f45e68913d98b37de982954d3af609d3af9788 Iteratively hitting walls, walking down wrong paths, but still finding a way forward. Stomped through the problems. Proud to say I did most of my own hackingg. When I reached a deadend, I understood enough to get to the other side. At points when beseeching external resources I&amp;rsquo;d already implemented their sage suggestions,
-which means I&amp;rsquo;m bamboozled by simple problems or I&amp;rsquo;m at the bleeding edge of a problem space.</description>
+      <description>Day 5 Commit Hash: 83f45e68913d98b37de982954d3af609d3af9788
+Iteratively hitting walls, walking down wrong paths, but still finding a way forward. I understand tkinter enough to be my own guiding light. At points when beseeching external resources I&amp;rsquo;d already implemented their sage suggestions, which means either I&amp;rsquo;m bamboozled by simple problems or I&amp;rsquo;m at the bleeding edge of a problem space. Should I be ashamed or proud?
+Features Added:
+ Player overview now updates according to muster Army overview also updates in response to mustering event  Upcoming:</description>
     </item>
     
     <item>
@@ -35,7 +39,8 @@ which means I&amp;rsquo;m bamboozled by simple problems or I&amp;rsquo;m at the 
       <pubDate>Thu, 24 Feb 2022 14:49:47 -0500</pubDate>
       
       <guid>https://ianbruyere.github.io/posts/titan-dev-diary-4/</guid>
-      <description>Day 4 Commit Hash: baea475c7ccb548842ecc022ec44c8e05fd7e444 No significant stumbling blocks, other then stumbling from fatigue. I got mustering &amp;ldquo;working&amp;rdquo;; the unit list doesn&amp;rsquo;t refresh unless you close-reopen.
+      <description>Day 4 Commit Hash: baea475c7ccb548842ecc022ec44c8e05fd7e444
+No significant stumbling blocks, other then stumbling from fatigue. I got mustering &amp;ldquo;working&amp;rdquo;; the unit list doesn&amp;rsquo;t refresh unless you close-reopen.
 Also the main overview doesn&amp;rsquo;t update accordingly.
 I refactored Characters/Creatures - Titan calls them &amp;lsquo;Characters&amp;rsquo;, I like &amp;lsquo;Creatures&amp;rsquo;,
 but lets be real in code I need to call them units -to use a csv and a namedtuple. The writing of took 5 minutes, and troubleshooting took 40.</description>
@@ -77,6 +82,19 @@ Day 1 Commit: ad3e49bb532ebca99a332defa2a84e9b230f9e00
 Now I&amp;rsquo;m on my own; I&amp;rsquo;m beyond the scope of the blog post. I floundered for a bit on where to start; feverishly typing out ideas as a balm. My starting point though has been determined: the setup screen.
 What a session this turned out to be.
 I made headway quite quickly, getting the dropdowns where I wanted, and loading the army icon names into them quite quickly.</description>
+    </item>
+    
+    <item>
+      <title>Titan Tracker Diary #0</title>
+      <link>https://ianbruyere.github.io/posts/titan-dev-diary-0/</link>
+      <pubDate>Sun, 20 Feb 2022 14:50:19 -0500</pubDate>
+      
+      <guid>https://ianbruyere.github.io/posts/titan-dev-diary-0/</guid>
+      <description>Background Titan(1980) is a fun board game with significant flaws.
+Some flaws charming, some unwieldly.
+With digital aid Titan can rise above.
+Making army movement easier,only marker will need on-board presence,
+distributing public army information, and doing bookeeping will be the main benefits. Additional benefits will be preserving game state easier since Titan can last upwards of 4 hours, takes significant table real estate, and relocating is tenous at best.</description>
     </item>
     
     <item>
