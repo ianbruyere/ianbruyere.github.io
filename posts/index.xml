@@ -13,7 +13,7 @@
       <pubDate>Sat, 26 Feb 2022 14:50:03 -0500</pubDate>
       
       <guid>https://ianbruyere.github.io/posts/titan-dev-diary-6/</guid>
-      <description>Day 6 Commit Hash: More progress. Refactored code a little to have classes coresponding to the current action, as opposed to lumping them all in to one area. Doesn&amp;rsquo;t matter so much on User side but easier from a development perspective.
+      <description>Day 6 Commit Hash: e873ea2a82e09165a8a6297977f0698169e0e854 More progress. Refactored code a little to have classes coresponding to the current action, as opposed to lumping them all in to one area. Doesn&amp;rsquo;t matter so much on User side but easier from a development perspective.
 The Breakdown
 Features Added:
  Resolve battle now updates Overview Correctly A &amp;ldquo;Turn&amp;rdquo; function is in-process: will guide a player through valid actions per army.  Some UI Errors:</description>
