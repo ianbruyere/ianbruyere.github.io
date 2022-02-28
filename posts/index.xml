@@ -6,7 +6,22 @@
     <description>Recent content in Posts on Ian&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 26 Feb 2022 14:50:03 -0500</lastBuildDate><atom:link href="https://ianbruyere.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 27 Feb 2022 00:59:53 -0500</lastBuildDate><atom:link href="https://ianbruyere.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Titan Dev Diary 7</title>
+      <link>https://ianbruyere.github.io/posts/titan-dev-diary-7/</link>
+      <pubDate>Sun, 27 Feb 2022 00:59:53 -0500</pubDate>
+      
+      <guid>https://ianbruyere.github.io/posts/titan-dev-diary-7/</guid>
+      <description>Day 7 Commit Hash: a1f55212d407076b77610eec374f20b8f86b89ca
+Completed all the UI features. One can split the army, muster new units, and resolve battles. Points will be granted
+to the victor, and the UI updates accordingly. One final visual
+glitch is present, and once I finally chase that down, it&amp;rsquo;s on to
+transmitting data around.
+I both think this will be simple and hard. There&amp;rsquo;s definitely some
+thinking I&amp;rsquo;ll have to throw into it.</description>
+    </item>
+    
     <item>
       <title>Titan Dev Diary #6</title>
       <link>https://ianbruyere.github.io/posts/titan-dev-diary-6/</link>
