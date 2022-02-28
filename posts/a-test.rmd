@@ -1,8 +1,0 @@
----
-title: "A Test"
-date: 2021-02-05T21:58:09-05:00
-draft: true
----
-$$
-\sum_{i=1}^n X_i
-$$
