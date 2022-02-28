@@ -21,7 +21,7 @@
       "articleSection" : "posts",
       "name" : "Titan Dev Diary #2",
       "headline" : "Titan Dev Diary #2",
-      "description" : "Day 2 Commit: ad3e49bb532ebca99a332defa2a84e9b230f9e00\nThis was the day where I bit off more than I could chew. Or at least I felt that way. When I don\u0026rsquo;t fully understand something, it can feel daunting.\nI wasn\u0026rsquo;t sure how tkinter was behaving or would behave between multiple window states.\n How would the information flow between them? How would I maintain state of the other players? How would each player get their own GUI element in the same app but be able to update discretely?",
+      "description" : "Day 2 Commit: ad3e49bb532ebca99a332defa2a84e9b230f9e00 This was the day where I bit off more than I could chew. Or at least I felt that way. When I don\u0026rsquo;t fully understand something, it can feel daunting.\nI wasn\u0026rsquo;t sure how tkinter was behaving or would behave between multiple window states.\n How would information flow between different client-side components of the GUI? How would I maintain state of the other players? How would each player get a GUI element in the same app but update discretely?",
       "inLanguage" : "en-US",
       "author" : "",
       "creator" : "",
@@ -38,14 +38,12 @@
 <title>Titan Dev Diary #2</title>
   <meta property="og:title" content="Titan Dev Diary #2" />
   <meta property="og:type" content="article" />
-  <meta property="og:description" content="Day 2 Commit: ad3e49bb532ebca99a332defa2a84e9b230f9e00
-This was the day where I bit off more than I could chew. Or at least I felt that way. When I don&amp;rsquo;t fully understand something, it can feel daunting.
+  <meta property="og:description" content="Day 2 Commit: ad3e49bb532ebca99a332defa2a84e9b230f9e00 This was the day where I bit off more than I could chew. Or at least I felt that way. When I don&amp;rsquo;t fully understand something, it can feel daunting.
 I wasn&amp;rsquo;t sure how tkinter was behaving or would behave between multiple window states.
- How would the information flow between them? How would I maintain state of the other players? How would each player get their own GUI element in the same app but be able to update discretely?" />
-  <meta name="description" content="Day 2 Commit: ad3e49bb532ebca99a332defa2a84e9b230f9e00
-This was the day where I bit off more than I could chew. Or at least I felt that way. When I don&amp;rsquo;t fully understand something, it can feel daunting.
+ How would information flow between different client-side components of the GUI? How would I maintain state of the other players? How would each player get a GUI element in the same app but update discretely?" />
+  <meta name="description" content="Day 2 Commit: ad3e49bb532ebca99a332defa2a84e9b230f9e00 This was the day where I bit off more than I could chew. Or at least I felt that way. When I don&amp;rsquo;t fully understand something, it can feel daunting.
 I wasn&amp;rsquo;t sure how tkinter was behaving or would behave between multiple window states.
- How would the information flow between them? How would I maintain state of the other players? How would each player get their own GUI element in the same app but be able to update discretely?" />
+ How would information flow between different client-side components of the GUI? How would I maintain state of the other players? How would each player get a GUI element in the same app but update discretely?" />
   <meta property="og:locale" content="en-us" />
 
   
@@ -126,29 +124,25 @@ I wasn&amp;rsquo;t sure how tkinter was behaving or would behave between multipl
         <div class="post-content markdown-body">
           
           <h2 id="day-2">Day 2</h2>
-<p><strong>Commit: ad3e49bb532ebca99a332defa2a84e9b230f9e00</strong><br>
+<p><strong>Commit: ad3e49bb532ebca99a332defa2a84e9b230f9e00</strong> <br>
 This was the day where I bit off more than I could chew.
 Or at least I felt that way. When I don&rsquo;t fully understand something, it can feel daunting.<br>
 I wasn&rsquo;t sure how <code>tkinter</code> was behaving or would behave between multiple window states.</p>
 <ol>
-<li>How would the information flow between them?</li>
+<li>How would information flow between different client-side components of the GUI?</li>
 <li>How would I maintain state of the other players?</li>
-<li>How would each player get their own GUI element in the same app but be able to update discretely?</li>
+<li>How would each player get a GUI element in the same app but update discretely?</li>
 </ol>
-<p>I&rsquo;m good at coming up with the questions I need answered, but finding adequate answers is troublesome.<br>
-The blog circuit has lost it&rsquo;s utility at this stage: it too heavily focuses on toy examples, and also more on how than why or whats going on.<br>
-Typically at this point I RTFM but it&rsquo;s more of a problem of what I was using <code>tkinter</code> for, rather then with <code>tkinter</code> specifically.<br>
-Most of my time today I spent <strong>thinking</strong> about the problem as I took care of other concerns: chores, working out, being a bum(it was a day off after all).<br>
-I&rsquo;d sit down to code intermittenly as thoughts crystallized, but paralysis would soon strike.<br>
-My attempt to gain traction was wrongheaded or the hugeness of what I had to do/figure out would loom large.<br>
-What eventually helped was my knowledge of web programming. I&rsquo;ve done frontend stuff before; I was only unfamiliar with tkinter, not the concepts it was built off.<br>
-With that mental model, I was able to hack out something that I think will be the basis of how the whole project will work.<br>
-Also worth mentioning is one of stumbling steps forward throughout the day had me simply make another <code>tk</code> app class.<br>
-A stopgap by skirting Question 3, wrestling the problem into something my brain can handle' despite the avoidance, I now have an idea of how I';; manage it..<br>
-Refactoring is in my future.<br>
-An anticipatory moment for me: you get feature working, spend a couple cathartic sessions reorganizing, and refactoring.<br>
-Then seeing all those changes in git&hellip;<em>chef&rsquo;s kiss</em>. It&rsquo;s almost like I know how to code.<br>
-Enjoy the spaghetti while it lasts though.</p>
+<p>Good questions to frame, and would eventually lead to good answers.
+Typically I&rsquo;d RTFM but more pressing to me was I had no clear design for the app,
+since all <code>tkinter</code> was doing was presenting information, and I didn&rsquo;t know how I was going
+to create and organize the information itself.
+Most of my day I spent <strong>thinking</strong> as I took care of other concerns:
+chores, working out, being a bum(it was the weekend).<br>
+I&rsquo;d code intermittenly as thoughts crystallized, but paralysis would soon strike.<br>
+What helped was thinking of <code>tkinter</code> as MVC, from web developement, which I <strong>am</strong> familiar with.<br>
+With that mental model, and isolating my code from my previous work thus skirting Question 1,
+I was able to hack out the basis of functionality for the whole project.</p>
 
         </div>
 

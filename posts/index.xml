@@ -28,9 +28,7 @@ Features Added:
       
       <guid>https://ianbruyere.github.io/posts/titan-dev-diary-5/</guid>
       <description>Day 5 Commit Hash: 83f45e68913d98b37de982954d3af609d3af9788
-Iteratively hitting walls, walking down wrong paths, but still finding a way forward. I understand tkinter enough to be my own guiding light. At points when beseeching external resources I&amp;rsquo;d already implemented their sage suggestions, which means either I&amp;rsquo;m bamboozled by simple problems or I&amp;rsquo;m at the bleeding edge of a problem space. Should I be ashamed or proud?
-Features Added:
- Player overview now updates according to muster Army overview also updates in response to mustering event  Upcoming:</description>
+Iteratively hitting walls, walking down wrong paths, but still finding a way forward. I understand tkinter enough to be my own guiding light. At points of hard contention I&amp;rsquo;d beseech external resources only to find I&amp;rsquo;d independently implemented their sage suggestions. This happened ad nauseam multiple times giving rise to new tantilizing perceptions of my abilities: either simple things bamboozle me or I&amp;rsquo;m at the bleeding edge of a problem space.</description>
     </item>
     
     <item>
@@ -52,11 +50,12 @@ but lets be real in code I need to call them units -to use a csv and a namedtupl
       <pubDate>Wed, 23 Feb 2022 14:49:52 -0500</pubDate>
       
       <guid>https://ianbruyere.github.io/posts/titan-dev-diary-3/</guid>
-      <description>Day 3 Commit Hash: 28d4de8ac878570bca991ccc63e3eead3fdaea23 Made a lot of progress, however one measures progress when &amp;ldquo;finished&amp;rdquo; is of nebulous
+      <description>Day 3 Commit Hash: 28d4de8ac878570bca991ccc63e3eead3fdaea23
+Made a lot of progress, however one measures progress when &amp;ldquo;finished&amp;rdquo; is of nebulous
 determination. It&amp;rsquo;s ugly as sin but the UI is there for Opponents and Players, and
 also a pop out menu for the Player Armies. We&amp;rsquo;ll see if prettifying is ever a thing.
 Now I need to make the central feature of splitting one army into two.
-A quick search before sign off reveals that tkinter doesn&amp;rsquo;t explicitly drag-drop.</description>
+A quick search before sign-off reveals that tkinter doesn&amp;rsquo;t explicitly support drag-drop.</description>
     </item>
     
     <item>
@@ -65,10 +64,9 @@ A quick search before sign off reveals that tkinter doesn&amp;rsquo;t explicitly
       <pubDate>Tue, 22 Feb 2022 02:46:47 -0500</pubDate>
       
       <guid>https://ianbruyere.github.io/posts/titan-dev-diary-2/</guid>
-      <description>Day 2 Commit: ad3e49bb532ebca99a332defa2a84e9b230f9e00
-This was the day where I bit off more than I could chew. Or at least I felt that way. When I don&amp;rsquo;t fully understand something, it can feel daunting.
+      <description>Day 2 Commit: ad3e49bb532ebca99a332defa2a84e9b230f9e00 This was the day where I bit off more than I could chew. Or at least I felt that way. When I don&amp;rsquo;t fully understand something, it can feel daunting.
 I wasn&amp;rsquo;t sure how tkinter was behaving or would behave between multiple window states.
- How would the information flow between them? How would I maintain state of the other players? How would each player get their own GUI element in the same app but be able to update discretely?</description>
+ How would information flow between different client-side components of the GUI? How would I maintain state of the other players? How would each player get a GUI element in the same app but update discretely?</description>
     </item>
     
     <item>
@@ -81,20 +79,23 @@ I wasn&amp;rsquo;t sure how tkinter was behaving or would behave between multipl
 Day 1 Commit: ad3e49bb532ebca99a332defa2a84e9b230f9e00
 Now I&amp;rsquo;m on my own; I&amp;rsquo;m beyond the scope of the blog post. I floundered for a bit on where to start; feverishly typing out ideas as a balm. My starting point though has been determined: the setup screen.
 What a session this turned out to be.
-I made headway quite quickly, getting the dropdowns where I wanted, and loading the army icon names into them quite quickly.</description>
+I made headway quickly getting dropdowns created, populated, and an image loaded in. With the basic elements in place, the stage was set for trouble to manifest:</description>
     </item>
     
     <item>
-      <title>Titan Tracker Diary #0</title>
+      <title>Titan Dev Diary #0</title>
       <link>https://ianbruyere.github.io/posts/titan-dev-diary-0/</link>
       <pubDate>Sun, 20 Feb 2022 14:50:19 -0500</pubDate>
       
       <guid>https://ianbruyere.github.io/posts/titan-dev-diary-0/</guid>
       <description>Background Titan(1980) is a fun board game with significant flaws.
-Some flaws charming, some unwieldly.
-With digital aid Titan can rise above.
-Making army movement easier,only marker will need on-board presence,
-distributing public army information, and doing bookeeping will be the main benefits. Additional benefits will be preserving game state easier since Titan can last upwards of 4 hours, takes significant table real estate, and relocating is tenous at best.</description>
+Some flaws charming, some unwieldly. With digital aid Titan can rise above.
+Making army movement easier, distributing public army information,
+and doing bookeeping will be the main goals. Additional
+benefits are preserving game state since Titan can last
+upwards of 4 hours, takes significant table real estate,
+and relocating is tenous at best.
+Day -1 I made some false starts since my original vision was for a phone app.</description>
     </item>
     
     <item>
