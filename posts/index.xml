@@ -6,9 +6,22 @@
     <description>Recent content in Posts on Ian&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 27 Feb 2022 00:59:53 -0500</lastBuildDate><atom:link href="https://ianbruyere.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Mar 2022 00:56:52 -0500</lastBuildDate><atom:link href="https://ianbruyere.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Titan Dev Diary 7</title>
+      <title>Titan Dev Diary #8</title>
+      <link>https://ianbruyere.github.io/posts/titan-dev-diary-8/</link>
+      <pubDate>Fri, 04 Mar 2022 00:56:52 -0500</pubDate>
+      
+      <guid>https://ianbruyere.github.io/posts/titan-dev-diary-8/</guid>
+      <description>Day 8 Stomping the final UI thing didn&amp;rsquo;t take too long.
+I used pdb, Pythons debugging module, for the first time; which was exciting! Typically I spray prints all over the place
+and figure out the issue. However I felt I needed the stack for figuring
+out the event loop. It&amp;rsquo;s quite cool, and a lot different then the IDE
+debugging I&amp;rsquo;m used to, but still simple and informative. Onto the network!</description>
+    </item>
+    
+    <item>
+      <title>Titan Dev Diary #7</title>
       <link>https://ianbruyere.github.io/posts/titan-dev-diary-7/</link>
       <pubDate>Sun, 27 Feb 2022 00:59:53 -0500</pubDate>
       
